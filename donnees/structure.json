@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ArtGallery",
+  "name": "Galerie Baugier, atelier de Marcel Baugier",
+  "url": "https://baugier-maquette.vercel.app/",
+  "telephone": "+33630181549",
+  "email": "baugier@aol.com",
+  "address": { "@type": "PostalAddress", "streetAddress": "207 rue des Tanneurs", "postalCode": "83670", "addressLocality": "Barjols", "addressCountry": "FR" },
+  "founder": { "@type": "Person", "name": "Marcel Baugier", "birthDate": "1946-06-13", "birthPlace": "Barjols", "jobTitle": "Peintre" },
+  "description": "Atelier-galerie de 300 m² du peintre abstrait Marcel Baugier, installé depuis 1985 dans une salle des anciennes tanneries de Barjols (Var)."
+}

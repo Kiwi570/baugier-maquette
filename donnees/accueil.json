@@ -1,0 +1,89 @@
+{
+  "salles": [
+    {
+      "decennie": 1980,
+      "nom": "Premières recherches",
+      "texte": "La période abstraite commence : recherches sur l'espace et la couleur, dans le sillage de Klee et de Matisse. Baugier quitte l'huile pour l'acrylique.",
+      "oeuvres": [
+        "annees-1980-1990-3",
+        "annees-1980-1990-11",
+        "annees-1980-1990-10"
+      ]
+    },
+    {
+      "decennie": 1990,
+      "nom": "Vers la construction",
+      "texte": "De nouvelles techniques, et une question : le rapport entre la forme, la couleur et la surface. La construction devient plus rigoureuse.",
+      "oeuvres": [
+        "annees-1990-2000-3",
+        "414",
+        "annees-1990-2000-4"
+      ]
+    },
+    {
+      "decennie": 2000,
+      "nom": "Couleurs chaudes",
+      "texte": "Des formes découpées et des couleurs chaudes, sur des toiles de toutes tailles, jusqu'à 240 × 145 cm.",
+      "oeuvres": [
+        "689",
+        "754",
+        "764"
+      ]
+    },
+    {
+      "decennie": 2010,
+      "nom": "La géométrie claire",
+      "texte": "Grilles grises et couleurs franches, sur papier, bois et toile, jusqu'aux toiles de 2024.",
+      "oeuvres": [
+        "1128",
+        "1369",
+        "1119"
+      ]
+    }
+  ],
+  "chezvous": [
+    "1368",
+    "689",
+    "667",
+    "1191",
+    "1119"
+  ],
+  "reconnaissance": [
+    {
+      "lieu": "Florence",
+      "titre": "Biennale internationale",
+      "annee": "2003"
+    },
+    {
+      "lieu": "Paris",
+      "titre": "Salon d'Automne",
+      "annee": "1989"
+    },
+    {
+      "lieu": "Paris",
+      "titre": "Hôtel Drouot, vente publique",
+      "annee": "Coté sur Drouot et Artprice"
+    },
+    {
+      "lieu": "Riyad",
+      "titre": "Achat public, Ambassade de France",
+      "annee": "Aussi : mairie de La Garde, sous-préfecture"
+    }
+  ],
+  "villes1": [
+    "Paris",
+    "Florence",
+    "Cannes",
+    "Monaco",
+    "Gand",
+    "Menton"
+  ],
+  "villes2": [
+    "Riyad",
+    "Sion",
+    "Aix-la-Chapelle",
+    "Avignon",
+    "Marseille",
+    "Garessio"
+  ]
+}

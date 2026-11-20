@@ -1,0 +1,19 @@
+[
+  { "region": "Var et Provence", "lieux": [
+    ["Salernes", "Musée Terra Rossa"], ["Entrecasteaux", "Le vieux moulin"], ["Draguignan", "Galerie « Le Hangart »"], ["Draguignan", "« ETE Contemporain »"],
+    ["Gréoux-les-Bains", "Château des Templiers"], ["Brignoles", "Galerie D.A.R.D"], ["Marseille", "Atelier Garnier"], ["Marseille", "Galerie « Intermezzo »"],
+    ["Marseille", "Espace Garnier"], ["La Seyne", "Villa Tamaris Pacha, groupe Elstir"], ["Toulon", "Galerie « Zagart »"], ["Toulon", "Galerie « REMP'ARTS »"],
+    ["Aix-en-Provence", "Galerie Karina Piluso"], ["Saint-Maximin", "Collège d'échanges contemporains"], ["Forcalquier", "Association « ETC. »"],
+    ["Lorgues", "Galerie Atlan, reportage FR3 Nice"], ["Avignon", "Galerie « Aura des Arts »"], ["Avignon", "Helios Galerie"],
+    ["La Garde-Freinet", "« Léz'art plastique »"], ["Hyères", "Espace 3000"], ["La Garde", "Mairie"], ["La Garde", "1er carrefour régional « Art et création »"] ] },
+  { "region": "Côte d'Azur et Monaco", "lieux": [
+    ["Cannes", "Galerie Michelle Champetier"], ["Menton", "Musée des Beaux-Arts, Rencontres internationales"], ["Menton", "Chapelle Saint-Jacques"],
+    ["Nice", "Art Jonction International"], ["Monaco", "Art Center"] ] },
+  { "region": "Paris", "lieux": [
+    ["Paris", "GMAC Bastille"], ["Paris", "Galerie Leitner"], ["Paris", "Salon international du petit format"], ["Paris", "Salon des Indépendants"],
+    ["Paris", "Salon d'Automne, 1989"], ["Paris", "Salon Révélations"] ] },
+  { "region": "Ailleurs en France", "lieux": [ ["Gueugnon", "Château d'Aux, groupe Equinoxe"] ] },
+  { "region": "À l'étranger", "lieux": [
+    ["Florence", "Biennale internationale, 2003"], ["Aix-la-Chapelle", "Galerie Hanni Jantzen"], ["Sion (Suisse)", "Galerie « Espace Ambuel »"],
+    ["Gand", "« LINEART »"], ["Garessio (Italie)", "1988"], ["Riyad", "M.M.F, Ambassade de France"] ] }
+]

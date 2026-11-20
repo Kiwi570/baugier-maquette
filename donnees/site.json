@@ -1,0 +1,15 @@
+{
+  "nom": "Galerie Baugier",
+  "adresse": "https://baugier-maquette.vercel.app",
+  "siteActuel": "baugier.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "oeuvres", "atelier", "parcours", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "venir" },
+  "couleurs": { "fond": "#F4F1EA", "texte": "#1B1A17", "voile": "#E6DFD2", "ouverture": "#F4F1EA", "menu": "#1B1A17", "theme": "#F4F1EA" },
+  "formeVoile": "rideau",
+  "contact": { "telephone": "06 30 18 15 49", "telephoneLien": "+33630181549", "email": "baugier@aol.com", "adresse": "207 rue des Tanneurs, 83670 Barjols" },
+  "polices": ["/assets/fonts/instrument-serif-latin-400-normal.woff2", "/assets/fonts/inter-tight-latin-400-normal.woff2"],
+  "imagePartage": "o-n-1368-toile-80x80-960.webp",
+  "curseur": false
+}

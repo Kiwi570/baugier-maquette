@@ -1,0 +1,2707 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/atelier-fr.jpg",
+      "etape": "fichiers",
+      "page": "atelier.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/contact-fr.jpg",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/accueil-fr.jpg",
+      "etape": "fichiers",
+      "page": "index.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/oeuvres-fr.jpg",
+      "etape": "fichiers",
+      "page": "oeuvres.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/parcours-fr.jpg",
+      "etape": "fichiers",
+      "page": "parcours.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.hero-texte:nth-of-type(2) > h1.hero-titre.tete-titre > span.ligne-masque:nth-of-type(1) « Marcel »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansWebgl",
+      "selecteur": "div.hero-texte:nth-of-type(2) > h1.hero-titre.tete-titre > span.ligne-masque:nth-of-type(1) > span.hero-ligne.tete-ligne « Marcel »",
+      "lieux": [
+        "390×844 sansWebgl",
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.hero-texte:nth-of-type(2) > h1.hero-titre.tete-titre > span.ligne-masque:nth-of-type(2) « Baugier »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansWebgl",
+      "selecteur": "h1.hero-titre.tete-titre > span.ligne-masque:nth-of-type(2) > span.hero-ligne.tete-ligne > em « Baugier »",
+      "lieux": [
+        "390×844 sansWebgl",
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.29:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansWebgl",
+      "selecteur": "section#reconnaissance > div.mots-geants:nth-of-type(1) > p:nth-of-type(1) « Paris · Florence · Cannes · Monaco · Gand · Menton »",
+      "lieux": [
+        "390×844 sansWebgl",
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.39:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansWebgl",
+      "selecteur": "section#reconnaissance > div.mots-geants:nth-of-type(1) > p:nth-of-type(2) « Riyad · Sion · Aix-la-Chapelle · Avignon · Marseil »",
+      "lieux": [
+        "390×844 sansWebgl",
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "o-827-100x100-toile-2007 (5/5, faible, 42 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a.oeuvre-lien > figure.media.oeuvre-media > picture > img « Marcel Baugier, N° 827, acrylique sur toile, 100 × »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.44:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#grande > div.grande-collant > p.grande-mot.grande-mot--g:nth-of-type(1) « 240 cm »",
+      "lieux": [
+        "1366×768 normal",
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.44:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#grande > div.grande-collant > p.grande-mot.grande-mot--d:nth-of-type(2) « 145 cm »",
+      "lieux": [
+        "1366×768 normal",
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "o-827-100x100-toile-2007 (5/5, faible, 30 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "a.oeuvre-lien > figure.media.oeuvre-media > picture > img « Marcel Baugier, N° 827, acrylique sur toile, 100 × »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.hero-texte:nth-of-type(2) > p.hero-actions:nth-of-type(3) > span.hero-info « 113 œuvres, de 1980 à 2024 · prix sur demande »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "p[data-fx-rangee=\"\"]:nth-child(1) ; p[data-sens=\"-1\"]",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.chezvous-grille > div.mur.mur--photo:nth-of-type(2) > div.mur-scene > p.mur-repere « Console : 180 cm »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "div.mur.mur--photo:nth-of-type(2) > div.mur-scene > figure.media.mur-photo > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.atelier-tete-texte.conteneur > h1.tete-titre > span.ligne-masque:nth-of-type(1) « Une salle des »",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.atelier-tete-texte.conteneur > h1.tete-titre > span.ligne-masque:nth-of-type(1) > span.tete-ligne « Une salle des »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.atelier-tete-texte.conteneur > h1.tete-titre > span.ligne-masque:nth-of-type(2) « anciennes tanneries »",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "h1.tete-titre > span.ligne-masque:nth-of-type(2) > span.tete-ligne > em « anciennes tanneries »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#chiffres > ul.grands-chiffres.fx-fini > li:nth-of-type(1) > span « l'année où le peintre construit l'atelier »",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#chiffres > ul.grands-chiffres.fx-fini > li:nth-of-type(1) > strong « 1985 »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#chiffres > ul.grands-chiffres.fx-fini > li:nth-of-type(2) > span « m² sous la charpente des tanneries »",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#chiffres > ul.grands-chiffres.fx-fini > li:nth-of-type(2) > strong « 300 »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#chiffres > ul.grands-chiffres.fx-fini > li:nth-of-type(3) > span « espaces : l'atelier et la salle d'exposition »",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#chiffres > ul.grands-chiffres.fx-fini > li:nth-of-type(3) > strong « 2 »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.atelier-tete-texte.conteneur > p.actions:nth-of-type(3) > a.bouton « Préparer la visite »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.atelier-tete-texte.conteneur > p.actions:nth-of-type(3) > span.info-cle « 207 rue des Tanneurs, 83670 Barjols »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "div.contact-tete-texte > dl.coordonnees > div:nth-of-type(1) > dd « 207 rue des Tanneurs, 83670 Barjols »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.contact-tete-texte > h1.tete-titre > span.ligne-masque:nth-of-type(1) « Venir à »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.contact-tete-texte > h1.tete-titre > span.ligne-masque:nth-of-type(1) > span.tete-ligne « Venir à »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.contact-tete-texte > h1.tete-titre > span.ligne-masque:nth-of-type(2) « l'atelier »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "h1.tete-titre > span.ligne-masque:nth-of-type(2) > span.tete-ligne > em « l'atelier »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par section#venir > figure.carte-var > svg > path",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#venir > figure.carte-var > svg > g:nth-of-type(2)",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par div.page-tete-texte.conteneur:nth-of-type(1) > div:nth-of-type(1) > h1.tete-titre > span.ligne-masque:nth-of-type(1) « 113 œuvres, »",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div:nth-of-type(1) > h1.tete-titre > span.ligne-masque:nth-of-type(1) > span.tete-ligne « 113 œuvres, »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par div.page-tete-texte.conteneur:nth-of-type(1) > div:nth-of-type(1) > h1.tete-titre > span.ligne-masque:nth-of-type(2) « de 1980 à 2024 »",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "h1.tete-titre > span.ligne-masque:nth-of-type(2) > span.tete-ligne > em « de 1980 à 2024 »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.parcours-tete-texte.conteneur > h1.tete-titre > span.ligne-masque:nth-of-type(1) « De Barjols au Louvre, »",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.parcours-tete-texte.conteneur > h1.tete-titre > span.ligne-masque:nth-of-type(1) > span.tete-ligne « De Barjols au Louvre, »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut > div.parcours-tete-texte.conteneur > h1.tete-titre > span.ligne-masque:nth-of-type(2) « et retour »",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "h1.tete-titre > span.ligne-masque:nth-of-type(2) > span.tete-ligne > em « et retour »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.parcours-tete-texte.conteneur > p.actions:nth-of-type(3) > a.bouton « Voir les expositions »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.parcours-tete-texte.conteneur > p.actions:nth-of-type(3) > span.info-cle « Né le 13 juin 1946 à Barjols »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#debut « Illustration générée 1946 PARCOURS De Barjols au L »",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > p.annee-geante « 1946 »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 650 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 667 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 683 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 700 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 717 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 733 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 750 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 767 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 783 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 800 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 817 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 833 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 850 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 867 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 883 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 900 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 917 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 933 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 950 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 967 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 983 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1000 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1017 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1067 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1083 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1483 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1517 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1533 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1550 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1567 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1583 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1600 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1617 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1633 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1650 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1667 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1683 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1700 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1717 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1733 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1750 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1767 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1783 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1800 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1817 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2300 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2317 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2333 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2350 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2417 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2433 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2450 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansWebgl",
+      "selecteur": "section#acquerir « ACQUÉRIR UNE TOILE Les prix se donnent à l'atelier »",
+      "lieux": [
+        "390×844 sansWebgl",
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-texte:nth-of-type(2) > p.surtitre:nth-of-type(1) « PEINTRE ABSTRAIT · BARJOLS, VAR »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-oeuvre:nth-of-type(3) > p.cartel.hero-cartel > span:nth-of-type(1) « N° 1368 · Acrylique sur toile · 80 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#manifeste > div.manifeste-texte > p.surtitre:nth-of-type(1) « CE QU'EN DIT JEAN VAUTRIN »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#salle-1990 > figure.oeuvre.salle-oeuvre:nth-of-type(2) > figcaption.cartel > span:nth-of-type(1) « N° 414 · 85 × 70 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#salle-2000 > figure.oeuvre.salle-oeuvre:nth-of-type(1) > figcaption.cartel > span:nth-of-type(1) « N° 689 · 130 × 110 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#salle-2000 > figure.oeuvre.salle-oeuvre:nth-of-type(2) > figcaption.cartel > span:nth-of-type(1) « N° 754 · 92 × 73 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#salle-2000 > figure.oeuvre.salle-oeuvre:nth-of-type(3) > figcaption.cartel > span:nth-of-type(1) « N° 827 · 100 × 100 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#salle-2010 > figure.oeuvre.salle-oeuvre:nth-of-type(1) > figcaption.cartel > span:nth-of-type(1) « N° 1128 · 106 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#salle-2010 > figure.oeuvre.salle-oeuvre:nth-of-type(2) > figcaption.cartel > span:nth-of-type(1) « N° 1369 · 80 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#salle-2010 > figure.oeuvre.salle-oeuvre:nth-of-type(3) > figcaption.cartel > span:nth-of-type(1) « N° 1206 · 100 × 70 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#atelier > div.atelier-bloc-texte:nth-of-type(1) > p.surtitre:nth-of-type(1) « L'ATELIER-GALERIE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.mur.mur--photo:nth-of-type(2) > div.mur-scene > figure.media.mur-photo > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.chezvous-grille > div.mur.mur--photo:nth-of-type(2) > div.mur-scene > p.mur-repere « Console : 180 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#acquerir > div.acquerir-tete > p.surtitre:nth-of-type(1) « ACQUÉRIR UNE TOILE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#manifeste > div.manifeste-texte > blockquote.citation > p « « Il est un peu le Matisse de l'abstraction. » »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#visiter « L'atelier en vidéo Le peintre a publié une visite  »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.atelier-tete-texte.conteneur > p.surtitre:nth-of-type(1) « L'ATELIER-GALERIE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.fin-oeuvre-grille > figure.oeuvre.fin-oeuvre-toile > figcaption.cartel > span:nth-of-type(1) « N° 1128 · 106 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#visiter > div.carte-info:nth-of-type(2) > ul.liste-lieux.fx-fini > li:nth-of-type(3) « Draguignan Galerie « Le Hangart » »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#formulaire « Écrire au peintre Pour demander le prix d'une œuvr »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.fin-oeuvre-grille > figure.oeuvre.fin-oeuvre-toile > figcaption.cartel > span:nth-of-type(1) « N° 689 · 130 × 110 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(1) > p.cartel > span:nth-of-type(1) « N° 1388 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(2) > p.cartel > span:nth-of-type(1) « N° 1385 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(3) > p.cartel > span:nth-of-type(1) « N° 1383 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(4) > p.cartel > span:nth-of-type(1) « N° 1382 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(5) > p.cartel > span:nth-of-type(1) « N° 1381 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(6) > p.cartel > span:nth-of-type(1) « N° 1380 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(7) > p.cartel > span:nth-of-type(1) « N° 1370 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(8) > p.cartel > span:nth-of-type(1) « N° 1375 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(9) > p.cartel > span:nth-of-type(1) « N° 1371 · 70 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(10) > p.cartel > span:nth-of-type(1) « N° 1369 · 80 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(11) > p.cartel > span:nth-of-type(1) « N° 1368 · 80 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(12) > p.cartel > span:nth-of-type(1) « N° 1365 · 80 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(13) > p.cartel > span:nth-of-type(1) « N° 1206 · 100 × 70 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(14) > p.cartel > span:nth-of-type(1) « N° 1205 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(15) > p.cartel > span:nth-of-type(1) « N° 1204 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(16) > p.cartel > span:nth-of-type(1) « N° 1203 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(17) > p.cartel > span:nth-of-type(1) « N° 1201 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(18) > p.cartel > span:nth-of-type(1) « N° 1200 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(19) > p.cartel > span:nth-of-type(1) « N° 1199 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(20) > p.cartel > span:nth-of-type(1) « N° 1198 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(21) > p.cartel > span:nth-of-type(1) « N° 1197 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(22) > p.cartel > span:nth-of-type(1) « N° 1196 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(23) > p.cartel > span:nth-of-type(1) « N° 1195 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(24) > p.cartel > span:nth-of-type(1) « N° 1194 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(25) > p.cartel > span:nth-of-type(1) « N° 1193 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(26) > p.cartel > span:nth-of-type(1) « N° 1192 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(27) > p.cartel > span:nth-of-type(1) « N° 1191 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(28) > p.cartel > span:nth-of-type(1) « N° 1190 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(29) > p.cartel > span:nth-of-type(1) « N° 1189 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(30) > p.cartel > span:nth-of-type(1) « N° 1142 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(31) > p.cartel > span:nth-of-type(1) « N° 1135 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(32) > p.cartel > span:nth-of-type(1) « N° 1132 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(33) > p.cartel > span:nth-of-type(1) « N° 1130 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(34) > p.cartel > span:nth-of-type(1) « N° 1128 · 106 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(35) > p.cartel > span:nth-of-type(1) « N° 1122 · 50 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(36) > p.cartel > span:nth-of-type(1) « N° 1121 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(37) > p.cartel > span:nth-of-type(1) « N° 1120 · 90 × 60 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(38) > p.cartel > span:nth-of-type(1) « N° 1119 · 90 × 60 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(39) > p.cartel > span:nth-of-type(1) « N° 1118 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(40) > p.cartel > span:nth-of-type(1) « N° 1117 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(41) > p.cartel > span:nth-of-type(1) « N° 1116 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(42) > p.cartel > span:nth-of-type(1) « N° 1115 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(43) > p.cartel > span:nth-of-type(1) « N° 1114 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(44) > p.cartel > span:nth-of-type(1) « N° 1113 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(45) > p.cartel > span:nth-of-type(1) « N° 1110 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(46) > p.cartel > span:nth-of-type(1) « N° 1109 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(47) > p.cartel > span:nth-of-type(1) « N° 1108 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(48) > p.cartel > span:nth-of-type(1) « N° 958 · 60 × 40 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(49) > p.cartel > span:nth-of-type(1) « N° 953 · 60 × 60 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(50) > p.cartel > span:nth-of-type(1) « N° 952 · 60 × 60 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(51) > p.cartel > span:nth-of-type(1) « N° 909 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(52) > p.cartel > span:nth-of-type(1) « N° 881 · 70 × 60 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(53) > p.cartel > span:nth-of-type(1) « N° 879 · 70 × 60 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(54) > p.cartel > span:nth-of-type(1) « N° 827 · 100 × 100 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(55) > p.cartel > span:nth-of-type(1) « N° 814 · 27 × 25 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(56) > p.cartel > span:nth-of-type(1) « N° 780 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(57) > p.cartel > span:nth-of-type(1) « N° 764 · 92 × 73 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(58) > p.cartel > span:nth-of-type(1) « N° 761 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(59) > p.cartel > span:nth-of-type(1) « N° 754 · 92 × 73 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(60) > p.cartel > span:nth-of-type(1) « N° 749 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(61) > p.cartel > span:nth-of-type(1) « N° 732 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(62) > p.cartel > span:nth-of-type(1) « N° 719 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(63) > p.cartel > span:nth-of-type(1) « N° 711 · 61 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(64) > p.cartel > span:nth-of-type(1) « N° 703 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(65) > p.cartel > span:nth-of-type(1) « N° 692 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(66) > p.cartel > span:nth-of-type(1) « N° 689 · 130 × 110 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(70) > p.cartel > span:nth-of-type(1) « N° 672 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(71) > p.cartel > span:nth-of-type(1) « N° 667 · 240 × 145 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(72) > p.cartel > span:nth-of-type(1) « N° 665 · 100 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(73) > p.cartel > span:nth-of-type(1) « N° 657 · 41 × 33 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(74) > p.cartel > span:nth-of-type(1) « N° 656 · 92 × 73 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(75) > p.cartel > span:nth-of-type(1) « N° 647 · 41 × 33 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(76) > p.cartel > span:nth-of-type(1) « N° 637 · 40 × 30 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(77) > p.cartel > span:nth-of-type(1) « N° 617 · 61 × 50 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(78) > p.cartel > span:nth-of-type(1) « N° 585 · 81 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(79) > p.cartel > span:nth-of-type(1) « N° 579 · 41 × 24 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(80) > p.cartel > span:nth-of-type(1) « N° 561 · 40 × 30 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(81) > p.cartel > span:nth-of-type(1) « N° 463 · 79 × 54 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(82) > p.cartel > span:nth-of-type(1) « N° 424 · 86 × 65 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(91) > p.cartel > span:nth-of-type(1) « N° 414 · 85 × 70 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.cat-mur.fx-fini > li.cat-item:nth-of-type(92) > p.cartel > span:nth-of-type(1) « N° 390 · 85 × 70 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/oeuvres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#en-ligne « Aussi en ligne Une sélection est proposée sur Rise »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#vautrin « « BAUGIER brûle sous ses glacis » L'écrivain Jean  »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#expositions « 40 expositions Telles qu'elles figurent sur le sit »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > figure.media.page-tete-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.fin-oeuvre-grille > figure.oeuvre.fin-oeuvre-toile > figcaption.cartel > span:nth-of-type(1) « N° 1365 · 80 × 80 cm »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/parcours",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.vautrin-grille > div > blockquote.vautrin-citation > p « « J'aime l'ami et je n'en finis pas de découvrir l »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "trace : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "svg",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "parcours:projet",
+      "raison": "page.click: Timeout 30000ms exceeded.",
+      "etape": "parcours"
+    },
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 3,
+    "mesures": 30,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 5,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 5,
+    "liens et boutons": 5,
+    "liens profonds": 14,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 5,
+    "tient dans l’écran": 2,
+    "films des épinglages": 1,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 4,
+    "souris immobile": 3,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 4 étape(s) notée(s), 41 min de travail pour 75 min de budget, 13 min d’attente de l’utilisateur.",
+    "Journal : « aperçu de l'accueil en films (attente de la réponse notée à part) » 8 min pour 5 prévues.",
+    "Audit rapide : étapes lourdes sur /, /atelier, /contact, /oeuvres, /parcours.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Balayage des largeurs : non fait en audit rapide.",
+    "Ouverture / (1366×768) : 2754 ms depuis le premier octet",
+    "Ouverture /atelier (1366×768) : 2464 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2524 ms depuis le premier octet",
+    "film de l'ouverture /contact 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /oeuvres (1366×768) : 2546 ms depuis le premier octet",
+    "Ouverture /parcours (1366×768) : 2496 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2740 ms depuis le premier octet",
+    "Ouverture /atelier (390×844) : 2549 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2565 ms depuis le premier octet",
+    "Ouverture /oeuvres (390×844) : 2529 ms depuis le premier octet",
+    "film de l'ouverture /oeuvres 390×844 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /parcours (390×844) : 2475 ms depuis le premier octet",
+    "film de l'ouverture /parcours 390×844 : réussi à la tentative 3 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 394 images d’intro, 13 de voile et 159 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Tient dans l'écran /atelier : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /oeuvres : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /parcours : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 0 % d'images lentes sur 541, tâche la plus longue 0 ms",
+    "Fluidité /atelier 1366×768 (molette) : 0 % d'images lentes sur 226, tâche la plus longue 0 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 182, tâche la plus longue 0 ms",
+    "Fluidité /oeuvres 1366×768 (molette) : 1 % d'images lentes sur 520, tâche la plus longue 119 ms",
+    "Fluidité /parcours 1366×768 (molette) : 0 % d'images lentes sur 341, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1334, tâche la plus longue 0 ms",
+    "Fluidité /atelier 390×844 (doigt) : 0 % d'images lentes sur 1331, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1335, tâche la plus longue 0 ms",
+    "Fluidité /oeuvres 390×844 (doigt) : 0 % d'images lentes sur 1409, tâche la plus longue 0 ms",
+    "Fluidité /parcours 390×844 (doigt) : 0 % d'images lentes sur 1337, tâche la plus longue 0 ms",
+    "Vitesse / : 0.40 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /atelier : 0.33 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.25 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /oeuvres : 0.60 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /parcours : 0.36 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en rideau"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "sans objet",
+      "detail": "aucune scène épinglée marquée ni galerie générique"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

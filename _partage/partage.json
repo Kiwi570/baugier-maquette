@@ -1,0 +1,182 @@
+{
+  "avertissements": [
+    "logo pris dans assets/images (logo.svg) : aucun logo dans donnees/images.json, vérifier que ce n'est pas celui du socle"
+  ],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "o-n-1368-toile-80x80-1600.webp",
+      "poids": 49482,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 610
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "atelier",
+      "langue": "fr",
+      "fichier": "assets/partage/atelier-fr.jpg",
+      "gabarit": "droite",
+      "image": "atelier-salle-1-1280.webp",
+      "poids": 68416,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "atelier-salle-3-1600.webp",
+      "poids": 68428,
+      "sujet": {
+        "x": 600,
+        "y": 26,
+        "l": 600,
+        "h": 499
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "oeuvres",
+      "langue": "fr",
+      "fichier": "assets/partage/oeuvres-fr.jpg",
+      "gabarit": "droite",
+      "image": "atelier-salle-2-1600.webp",
+      "poids": 63675,
+      "sujet": {
+        "x": 600,
+        "y": 52,
+        "l": 600,
+        "h": 525
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "parcours",
+      "langue": "fr",
+      "fichier": "assets/partage/parcours-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/collines-1280.webp",
+      "poids": 66009,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 619
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

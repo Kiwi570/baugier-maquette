@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marcel Baugier, peintre abstrait : atelier-galerie à Barjols</title>
+<meta name="description" content="Plus de quarante ans de peinture abstraite : 113 œuvres de Marcel Baugier, de 1980 à 2024, à voir à l&#39;atelier-galerie des anciennes tanneries de Barjols (Var).">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://baugier-maquette.vercel.app/">
+<style>:root{--fond:#F4F1EA;--texte:#1B1A17;--voile-fond:#E6DFD2;--ouverture-fond:#F4F1EA;--menu-fond:#1B1A17}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4F1EA">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Galerie Baugier">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Marcel Baugier, peintre abstrait : atelier-galerie à Barjols">
+<meta property="og:description" content="Plus de quarante ans de peinture abstraite : 113 œuvres de Marcel Baugier, de 1980 à 2024, à voir à l&#39;atelier-galerie des anciennes tanneries de Barjols (Var).">
+<meta property="og:url" content="https://baugier-maquette.vercel.app/">
+<meta property="og:image" content="https://baugier-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Marcel Baugier, peintre abstrait, et sa toile n° 1368">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ArtGallery","name":"Galerie Baugier, atelier de Marcel Baugier","url":"https://baugier-maquette.vercel.app/","telephone":"+33630181549","email":"baugier@aol.com","address":{"@type":"PostalAddress","streetAddress":"207 rue des Tanneurs","postalCode":"83670","addressLocality":"Barjols","addressCountry":"FR"},"founder":{"@type":"Person","name":"Marcel Baugier","birthDate":"1946-06-13","birthPlace":"Barjols","jobTitle":"Peintre"},"description":"Atelier-galerie de 300 m² du peintre abstrait Marcel Baugier, installé depuis 1985 dans une salle des anciennes tanneries de Barjols (Var)."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">Marcel Baugier</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Atelier-galerie · Barjols</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo.svg" alt="" width="34" height="34"><span>Marcel <em>Baugier</em></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/oeuvres" data-libelle="Œuvres">Œuvres</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/parcours" data-libelle="Parcours">Parcours</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#venir" data-libelle="Contact">Venir à l&#39;atelier</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/oeuvres" class="menu-lien" data-libelle="Œuvres">Œuvres</a></li><li style="--i:2"><a href="/atelier" class="menu-lien" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li style="--i:3"><a href="/parcours" class="menu-lien" data-libelle="Parcours">Parcours</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33630181549">Appeler 06 30 18 15 49</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut">
+  <div class="hero-lumiere" aria-hidden="true" data-effet="lumiere-atelier" data-souris data-audit-ignorer><span></span></div>
+  <div class="hero-texte">
+    <p class="surtitre" data-anime="gsap" data-tete>Peintre abstrait · Barjols, Var</p>
+    <h1 class="hero-titre tete-titre" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne tete-ligne">Marcel</span></span><span class="ligne-masque"><span class="hero-ligne tete-ligne"><em>Baugier</em></span></span></h1>
+    <p class="hero-intro" data-anime="gsap" data-tete>Plus de quarante ans de couleur et de construction, peints dans un atelier de 300 m² installé dans les anciennes tanneries de Barjols.</p>
+    <p class="hero-actions" data-anime="gsap" data-tete>
+      <a href="/oeuvres" class="bouton" data-libelle="Œuvres" data-action-principale data-survol="magnetique">Voir les œuvres</a>
+      <span class="hero-info" data-info-cle>113 œuvres, de 1980 à 2024 · prix sur demande</span>
+    </p>
+  </div>
+  <div class="hero-oeuvre">
+    <div class="hero-cadre" data-iris-centre style="aspect-ratio:1.0064">
+      <figure class="media oeuvre-media hero-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-n-1368-toile-80x80-1600.webp" srcset="/assets/images/o-n-1368-toile-80x80-480.webp 480w, /assets/images/o-n-1368-toile-80x80-960.webp 960w, /assets/images/o-n-1368-toile-80x80-1600.webp 1600w" sizes="(max-width: 760px) 86vw, 44vw" alt="Marcel Baugier, toile n° 1368, 2023 : grille de bandes grises sur fond blanc, carrés jaunes, rouges, bleus et triangles bruns" width="1600" height="1590" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <div class="toile-grille" aria-hidden="true" data-audit-ignorer>
+        <i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i><i style="--i:9"></i><i style="--i:10"></i><i style="--i:11"></i><i style="--i:12"></i><i style="--i:13"></i><i style="--i:14"></i><i style="--i:15"></i><i style="--i:16"></i><i style="--i:17"></i><i style="--i:18"></i><i style="--i:19"></i><i style="--i:20"></i><i style="--i:21"></i><i style="--i:22"></i><i style="--i:23"></i><i style="--i:24"></i>
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="1" d="M20 0V100M40 0V100M60 0V100M80 0V100M0 20H100M0 40H100M0 60H100M0 80H100" fill="none" stroke="#8d8a84" stroke-width=".9" vector-effect="non-scaling-stroke"/></svg>
+      </div>
+    </div>
+    <p class="cartel hero-cartel" data-anime="gsap" data-tete><span>N° 1368 · Acrylique sur toile · 80 × 80 cm</span><span>2023</span></p>
+  </div>
+</section>
+<section class="manifeste conteneur" id="manifeste">
+  <figure class="media manifeste-media" data-anime="rideau" style="--cadrage:62% 40%;aspect-ratio:3 / 4">
+  <picture>
+    <img src="/assets/images/atelier-peintre-1500.webp" srcset="/assets/images/atelier-peintre-640.webp 640w, /assets/images/atelier-peintre-1000.webp 1000w, /assets/images/atelier-peintre-1500.webp 1500w" sizes="(max-width: 760px) 90vw, 32vw" alt="Marcel Baugier, en blouse blanche, prépare ses couleurs sur la grande table de l&#39;atelier" width="1500" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="manifeste-texte">
+    <p class="surtitre" data-anime>Ce qu&#39;en dit Jean Vautrin</p>
+    <blockquote class="citation"><p data-anime="mots">« Il est un peu le Matisse de l&#39;abstraction. »</p><footer data-anime>Jean Vautrin, écrivain, prix Goncourt</footer></blockquote>
+    <p data-anime>Ses couleurs viennent des collines, des pins et de la terre de Provence. Sa manière, elle, n&#39;a jamais cessé de chercher : de la matière des années 1980 à la géométrie claire des toiles récentes, une toile ne répète jamais la précédente.</p>
+    <p data-anime><a href="/parcours" class="lien-fleche" data-libelle="Parcours">Lire son parcours</a></p>
+  </div>
+</section>
+<section class="decennies" id="decennies" data-effet="fond-teinte">
+  <div class="decennies-tete conteneur">
+    <h2 data-anime="lignes">Quatre décennies, quatre salles</h2>
+    <p data-anime>Chaque salle réunit trois toiles d&#39;une période. En descendant, le mur prend la couleur des toiles que vous regardez.</p>
+  </div>
+  <article class="salle" id="salle-1980">
+    <div class="salle-tete conteneur" data-anime>
+      <p class="salle-annee">1980 → 1990</p>
+      <div><h3>Premières recherches</h3><p class="salle-texte">La période abstraite commence : recherches sur l&#39;espace et la couleur, dans le sillage de Klee et de Matisse. Baugier quitte l&#39;huile pour l&#39;acrylique.</p></div>
+      <a href="/oeuvres?decennie=1980#catalogue" class="lien-fleche" data-libelle="Œuvres">Voir les 21 œuvres</a>
+    </div>
+    <div class="salle-mur" tabindex="0" role="region" aria-label="Premières recherches" data-galerie data-anime="cascade">
+      <figure class="oeuvre salle-oeuvre" style="--r:1.0493;--teinte:#f0ff03" data-teinte="#f0ff03">
+  <a href="/oeuvres?oeuvre=annees-1980-1990-3" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir Sans numéro, années 1980"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-annees-1980-1990-3-1600.webp" srcset="/assets/images/o-annees-1980-1990-3-480.webp 480w, /assets/images/o-annees-1980-1990-3-960.webp 960w, /assets/images/o-annees-1980-1990-3-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, années 1980" width="1600" height="1525" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>Sans numéro</span><span>Années 1980</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:1.318;--teinte:#eac600" data-teinte="#eac600">
+  <a href="/oeuvres?oeuvre=annees-1980-1990-11" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir Sans numéro, années 1980"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-annees-1980-1990-11-1600.webp" srcset="/assets/images/o-annees-1980-1990-11-480.webp 480w, /assets/images/o-annees-1980-1990-11-960.webp 960w, /assets/images/o-annees-1980-1990-11-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, années 1980" width="1600" height="1214" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>Sans numéro</span><span>Années 1980</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:1.4235;--teinte:#ddeb0d" data-teinte="#ddeb0d">
+  <a href="/oeuvres?oeuvre=annees-1980-1990-10" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir Sans numéro, années 1980"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-annees-1980-1990-10-1600.webp" srcset="/assets/images/o-annees-1980-1990-10-480.webp 480w, /assets/images/o-annees-1980-1990-10-960.webp 960w, /assets/images/o-annees-1980-1990-10-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, années 1980" width="1600" height="1124" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>Sans numéro</span><span>Années 1980</span></figcaption>
+</figure>
+    </div>
+  </article><article class="salle" id="salle-1990">
+    <div class="salle-tete conteneur" data-anime>
+      <p class="salle-annee">1990 → 2000</p>
+      <div><h3>Vers la construction</h3><p class="salle-texte">De nouvelles techniques, et une question : le rapport entre la forme, la couleur et la surface. La construction devient plus rigoureuse.</p></div>
+      <a href="/oeuvres?decennie=1990#catalogue" class="lien-fleche" data-libelle="Œuvres">Voir les 12 œuvres</a>
+    </div>
+    <div class="salle-mur" tabindex="0" role="region" aria-label="Vers la construction" data-galerie data-anime="cascade">
+      <figure class="oeuvre salle-oeuvre" style="--r:0.9235;--teinte:#b63c41" data-teinte="#b63c41">
+  <a href="/oeuvres?oeuvre=annees-1990-2000-3" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir Sans numéro, années 1990"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-annees-1990-2000-3-1600.webp" srcset="/assets/images/o-annees-1990-2000-3-480.webp 480w, /assets/images/o-annees-1990-2000-3-960.webp 960w, /assets/images/o-annees-1990-2000-3-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, années 1990" width="1600" height="1733" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>Sans numéro</span><span>Années 1990</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:0.8345;--teinte:#16477c" data-teinte="#16477c">
+  <a href="/oeuvres?oeuvre=414" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir N° 414, 1994"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-414-85x70-toile-1994-1600.webp" srcset="/assets/images/o-414-85x70-toile-1994-480.webp 480w, /assets/images/o-414-85x70-toile-1994-960.webp 960w, /assets/images/o-414-85x70-toile-1994-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, N° 414, acrylique sur toile, 85 × 70 cm, 1994" width="1600" height="1917" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>N° 414 · 85 × 70 cm</span><span>1994</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:1.027;--teinte:#a9a61f" data-teinte="#a9a61f">
+  <a href="/oeuvres?oeuvre=annees-1990-2000-4" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir Sans numéro, années 1990"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-annees-1990-2000-4-1600.webp" srcset="/assets/images/o-annees-1990-2000-4-480.webp 480w, /assets/images/o-annees-1990-2000-4-960.webp 960w, /assets/images/o-annees-1990-2000-4-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, années 1990" width="1600" height="1558" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>Sans numéro</span><span>Années 1990</span></figcaption>
+</figure>
+    </div>
+  </article><article class="salle" id="salle-2000">
+    <div class="salle-tete conteneur" data-anime>
+      <p class="salle-annee">2000 → 2010</p>
+      <div><h3>Couleurs chaudes</h3><p class="salle-texte">Des formes découpées et des couleurs chaudes, sur des toiles de toutes tailles, jusqu&#39;à 240 × 145 cm.</p></div>
+      <a href="/oeuvres?decennie=2000#catalogue" class="lien-fleche" data-libelle="Œuvres">Voir les 33 œuvres</a>
+    </div>
+    <div class="salle-mur" tabindex="0" role="region" aria-label="Couleurs chaudes" data-galerie data-anime="cascade">
+      <figure class="oeuvre salle-oeuvre" style="--r:1.2005;--teinte:#54b3f9" data-teinte="#54b3f9">
+  <a href="/oeuvres?oeuvre=689" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir N° 689, 2005"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-689-130x110-toile-2005-1600.webp" srcset="/assets/images/o-689-130x110-toile-2005-480.webp 480w, /assets/images/o-689-130x110-toile-2005-960.webp 960w, /assets/images/o-689-130x110-toile-2005-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, N° 689, acrylique sur toile, 130 × 110 cm, 2005" width="1600" height="1333" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>N° 689 · 130 × 110 cm</span><span>2005</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:0.7505;--teinte:#fea21b" data-teinte="#fea21b">
+  <a href="/oeuvres?oeuvre=754" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir N° 754, 2006"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-754-92x73-toile-2006-1600.webp" srcset="/assets/images/o-754-92x73-toile-2006-480.webp 480w, /assets/images/o-754-92x73-toile-2006-960.webp 960w, /assets/images/o-754-92x73-toile-2006-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, N° 754, acrylique sur toile, 92 × 73 cm, 2006" width="1600" height="2132" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>N° 754 · 92 × 73 cm</span><span>2006</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:1.2658;--teinte:#b26c35" data-teinte="#b26c35">
+  <a href="/oeuvres?oeuvre=764" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir N° 764, 2006"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-764-92x73-toile-2006-1600.webp" srcset="/assets/images/o-764-92x73-toile-2006-480.webp 480w, /assets/images/o-764-92x73-toile-2006-960.webp 960w, /assets/images/o-764-92x73-toile-2006-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, N° 764, acrylique sur toile, 92 × 73 cm, 2006" width="1600" height="1264" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>N° 764 · 92 × 73 cm</span><span>2006</span></figcaption>
+</figure>
+    </div>
+  </article><article class="salle" id="salle-2010">
+    <div class="salle-tete conteneur" data-anime>
+      <p class="salle-annee">2010 → 2024</p>
+      <div><h3>La géométrie claire</h3><p class="salle-texte">Grilles grises et couleurs franches, sur papier, bois et toile, jusqu&#39;aux toiles de 2024.</p></div>
+      <a href="/oeuvres?decennie=2010#catalogue" class="lien-fleche" data-libelle="Œuvres">Voir les 47 œuvres</a>
+    </div>
+    <div class="salle-mur" tabindex="0" role="region" aria-label="La géométrie claire" data-galerie data-anime="cascade">
+      <figure class="oeuvre salle-oeuvre" style="--r:1.3396;--teinte:#fab500" data-teinte="#fab500">
+  <a href="/oeuvres?oeuvre=1128" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir N° 1128, 2017"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-1128-106x80-toile-2017-1600.webp" srcset="/assets/images/o-1128-106x80-toile-2017-480.webp 480w, /assets/images/o-1128-106x80-toile-2017-960.webp 960w, /assets/images/o-1128-106x80-toile-2017-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, N° 1128, acrylique sur toile, 106 × 80 cm, 2017" width="1600" height="1194" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>N° 1128 · 106 × 80 cm</span><span>2017</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:0.9978;--teinte:#df8c06" data-teinte="#df8c06">
+  <a href="/oeuvres?oeuvre=1369" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir N° 1369, 2023"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-n-1369-toile-80x80-1600.webp" srcset="/assets/images/o-n-1369-toile-80x80-480.webp 480w, /assets/images/o-n-1369-toile-80x80-960.webp 960w, /assets/images/o-n-1369-toile-80x80-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, N° 1369, acrylique sur toile, 80 × 80 cm, 2023" width="1600" height="1604" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>N° 1369 · 80 × 80 cm</span><span>2023</span></figcaption>
+</figure><figure class="oeuvre salle-oeuvre" style="--r:1.5209;--teinte:#db6324" data-teinte="#db6324">
+  <a href="/oeuvres?oeuvre=1119" class="oeuvre-lien" data-libelle="Œuvres" aria-label="Ouvrir N° 1119, 2017"><figure class="media oeuvre-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-1119-90x60-toile-2017-1600.webp" srcset="/assets/images/o-1119-90x60-toile-2017-480.webp 480w, /assets/images/o-1119-90x60-toile-2017-960.webp 960w, /assets/images/o-1119-90x60-toile-2017-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 30vw" alt="Marcel Baugier, N° 1119, acrylique sur toile, 90 × 60 cm, 2017" width="1600" height="1052" loading="lazy" decoding="async">
+  </picture>
+</figure></a>
+  <figcaption class="cartel"><span>N° 1119 · 90 × 60 cm</span><span>2017</span></figcaption>
+</figure>
+    </div>
+  </article>
+</section>
+<section class="grande" id="grande" data-fx="plein-ecran" data-fx-depart="inset(24% 31% 24% 31% round 2px)">
+  <div class="grande-collant" data-collant>
+    <p class="grande-mot grande-mot--g" data-fx-ecarte="g" aria-hidden="true" data-audit-ignorer>240 cm</p>
+    <figure class="media grande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/o-667-240x145-toile-2004-1600.webp" srcset="/assets/images/o-667-240x145-toile-2004-480.webp 480w, /assets/images/o-667-240x145-toile-2004-960.webp 960w, /assets/images/o-667-240x145-toile-2004-1600.webp 1600w" sizes="100vw" alt="Marcel Baugier, toile n° 667, 2004 : grands aplats turquoise, bleu nuit, rose et vert découpés en éclats" width="1600" height="974" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <p class="grande-mot grande-mot--d" data-fx-ecarte="d" aria-hidden="true" data-audit-ignorer>145 cm</p>
+    <div class="grande-texte" data-fx-apres>
+      <p class="surtitre">La plus grande toile du catalogue</p>
+      <h2>Une toile de 2,40 mètres</h2>
+      <p class="cartel">N° 667 · Acrylique sur toile · 240 × 145 cm · 2004</p>
+    </div>
+  </div>
+</section>
+<section class="atelier-bloc conteneur" id="atelier">
+  <div class="atelier-bloc-texte">
+    <p class="surtitre" data-anime>L&#39;atelier-galerie</p>
+    <h2 data-anime="lignes">Un atelier dans les anciennes tanneries</h2>
+    <p data-anime>En 1985, Marcel Baugier construit lui-même son atelier dans une salle des anciennes tanneries de Barjols. Sur 300 m², d&#39;un côté on peint, de l&#39;autre on expose.</p>
+    <ul class="chiffres" data-anime="cascade">
+      <li><strong>1985</strong><span>atelier construit par le peintre</span></li>
+      <li><strong data-compteur="300">300</strong><span>m² d&#39;atelier et de salle d&#39;exposition</span></li>
+      <li><strong>207</strong><span>rue des Tanneurs, à Barjols</span></li>
+    </ul>
+    <p data-anime><a href="/atelier" class="bouton bouton--contour" data-libelle="L&#39;atelier" data-survol="magnetique">Visiter l&#39;atelier</a></p>
+  </div>
+  <div class="atelier-bloc-photos">
+    <figure class="media atelier-photo atelier-photo--1" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/atelier-salle-2-1600.webp" srcset="/assets/images/atelier-salle-2-640.webp 640w, /assets/images/atelier-salle-2-1024.webp 1024w, /assets/images/atelier-salle-2-1600.webp 1600w" sizes="(max-width: 760px) 90vw, 40vw" alt="La salle d&#39;exposition de l&#39;atelier : toiles accrochées sur les murs blancs, sculptures et canapé" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figure class="media atelier-photo atelier-photo--2" data-fx="parallaxe" data-fx-force="12" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/atelier-salle-3-1600.webp" srcset="/assets/images/atelier-salle-3-640.webp 640w, /assets/images/atelier-salle-3-1024.webp 1024w, /assets/images/atelier-salle-3-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 28vw" alt="Les murs de l&#39;atelier couverts de toiles, sous la charpente des anciennes tanneries" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="chezvous" id="chez-vous">
+  <div class="conteneur chezvous-grille">
+    <div class="chezvous-texte">
+      <p class="surtitre" data-anime>Chez vous</p>
+      <h2 data-anime="lignes">Accrochée à la bonne taille</h2>
+      <p data-anime>Choisissez une toile : elle s&#39;accroche au-dessus d&#39;une console de 180 cm, à son échelle réelle.</p>
+      <fieldset class="choix-toiles" data-anime="cascade">
+        <legend class="visuellement-cache">Choisir une toile</legend>
+        <button type="button" class="choix-toile" data-choix="1368" aria-pressed="true">
+            <span class="choix-vignette" style="aspect-ratio:1.0064"><img src="/assets/images/o-n-1368-toile-80x80-480.webp" alt="" width="80" height="79" loading="lazy"></span>
+            <span><strong>N° 1368</strong><br>80 × 80 cm</span>
+          </button><button type="button" class="choix-toile" data-choix="689" aria-pressed="false">
+            <span class="choix-vignette" style="aspect-ratio:1.2005"><img src="/assets/images/o-689-130x110-toile-2005-480.webp" alt="" width="80" height="67" loading="lazy"></span>
+            <span><strong>N° 689</strong><br>130 × 110 cm</span>
+          </button><button type="button" class="choix-toile" data-choix="667" aria-pressed="false">
+            <span class="choix-vignette" style="aspect-ratio:1.6434"><img src="/assets/images/o-667-240x145-toile-2004-480.webp" alt="" width="80" height="49" loading="lazy"></span>
+            <span><strong>N° 667</strong><br>240 × 145 cm</span>
+          </button><button type="button" class="choix-toile" data-choix="1191" aria-pressed="false">
+            <span class="choix-vignette" style="aspect-ratio:0.6575"><img src="/assets/images/o-1191-60x40-papier-2018-480.webp" alt="" width="80" height="122" loading="lazy"></span>
+            <span><strong>N° 1191</strong><br>60 × 40 cm</span>
+          </button><button type="button" class="choix-toile" data-choix="1119" aria-pressed="false">
+            <span class="choix-vignette" style="aspect-ratio:1.5209"><img src="/assets/images/o-1119-90x60-toile-2017-480.webp" alt="" width="80" height="53" loading="lazy"></span>
+            <span><strong>N° 1119</strong><br>90 × 60 cm</span>
+          </button>
+      </fieldset>
+      <p class="chezvous-prix" data-anime><span data-accroche-cartel>N° 1368 · 80 × 80 cm</span> · Prix sur demande</p>
+      <p data-anime><a href="/contact?sujet=oeuvre&amp;oeuvre=1368#formulaire" class="bouton" data-libelle="Contact" data-accroche-lien data-survol="magnetique">Demander cette œuvre</a></p>
+    </div>
+    <div class="mur  mur--photo" data-mur data-oeuvres="[{&quot;id&quot;:&quot;1368&quot;,&quot;l&quot;:80,&quot;h&quot;:80,&quot;image&quot;:&quot;o-n-1368-toile-80x80&quot;,&quot;titre&quot;:&quot;N° 1368&quot;,&quot;dims&quot;:&quot;80 × 80 cm&quot;,&quot;ratio&quot;:1.0064,&quot;alt&quot;:&quot;Marcel Baugier, N° 1368, acrylique sur toile, 80 × 80 cm, 2023&quot;},{&quot;id&quot;:&quot;689&quot;,&quot;l&quot;:130,&quot;h&quot;:110,&quot;image&quot;:&quot;o-689-130x110-toile-2005&quot;,&quot;titre&quot;:&quot;N° 689&quot;,&quot;dims&quot;:&quot;130 × 110 cm&quot;,&quot;ratio&quot;:1.2005,&quot;alt&quot;:&quot;Marcel Baugier, N° 689, acrylique sur toile, 130 × 110 cm, 2005&quot;},{&quot;id&quot;:&quot;667&quot;,&quot;l&quot;:240,&quot;h&quot;:145,&quot;image&quot;:&quot;o-667-240x145-toile-2004&quot;,&quot;titre&quot;:&quot;N° 667&quot;,&quot;dims&quot;:&quot;240 × 145 cm&quot;,&quot;ratio&quot;:1.6434,&quot;alt&quot;:&quot;Marcel Baugier, N° 667, acrylique sur toile, 240 × 145 cm, 2004&quot;},{&quot;id&quot;:&quot;1191&quot;,&quot;l&quot;:40,&quot;h&quot;:60,&quot;image&quot;:&quot;o-1191-60x40-papier-2018&quot;,&quot;titre&quot;:&quot;N° 1191&quot;,&quot;dims&quot;:&quot;60 × 40 cm&quot;,&quot;ratio&quot;:0.6575,&quot;alt&quot;:&quot;Marcel Baugier, N° 1191, acrylique sur papier, 60 × 40 cm, 2018&quot;},{&quot;id&quot;:&quot;1119&quot;,&quot;l&quot;:90,&quot;h&quot;:60,&quot;image&quot;:&quot;o-1119-90x60-toile-2017&quot;,&quot;titre&quot;:&quot;N° 1119&quot;,&quot;dims&quot;:&quot;90 × 60 cm&quot;,&quot;ratio&quot;:1.5209,&quot;alt&quot;:&quot;Marcel Baugier, N° 1119, acrylique sur toile, 90 × 60 cm, 2017&quot;}]">
+  <div class="mur-scene">
+    <figure class="media mur-photo" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/mur-salon-1280.webp" srcset="/assets/images/grok/mur-salon-640.webp 640w, /assets/images/grok/mur-salon-1280.webp 1280w, /assets/images/grok/mur-salon-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 60vw" alt="Mur blanc d&#39;un salon au-dessus d&#39;une longue console en chêne" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="mur-toile" data-toile data-effet="accrochage" style="--l:80;--h:80">
+      <img src="/assets/images/o-n-1368-toile-80x80-960.webp" alt="Marcel Baugier, N° 1368, acrylique sur toile, 80 × 80 cm, 2023" width="960" height="954" loading="lazy" decoding="async">
+    </div>
+    <p class="mur-repere" aria-hidden="true">Console : 180 cm</p>
+  </div>
+</div>
+  </div>
+</section>
+<section class="reconnaissance" id="reconnaissance">
+  <div class="mots-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel data-audit-ignorer>
+    <p data-fx-rangee>Paris · Florence · Cannes · Monaco · Gand · Menton · Paris · Florence · Cannes · Monaco · Gand · Menton</p>
+    <p data-fx-rangee data-sens="-1">Riyad · Sion · Aix-la-Chapelle · Avignon · Marseille · Garessio · Riyad · Sion · Aix-la-Chapelle · Avignon · Marseille · Garessio</p>
+  </div>
+  <div class="conteneur">
+    <h2 data-anime="lignes">Exposé de Paris à Florence, de Monaco à Riyad</h2>
+    <p class="reconnaissance-texte" data-anime>40 expositions, des ventes publiques à Drouot, des achats publics : un parcours reconnu, toujours mené depuis Barjols.</p>
+    <ul class="reconnaissance-cartes" data-anime="cascade">
+      <li><p class="reco-lieu">Florence</p><p class="reco-titre">Biennale internationale</p><p class="reco-annee">2003</p></li><li><p class="reco-lieu">Paris</p><p class="reco-titre">Salon d&#39;Automne</p><p class="reco-annee">1989</p></li><li><p class="reco-lieu">Paris</p><p class="reco-titre">Hôtel Drouot, vente publique</p><p class="reco-annee">Coté sur Drouot et Artprice</p></li><li><p class="reco-lieu">Riyad</p><p class="reco-titre">Achat public, Ambassade de France</p><p class="reco-annee">Aussi : mairie de La Garde, sous-préfecture</p></li>
+    </ul>
+    <p data-anime><a href="/parcours#expositions" class="lien-fleche" data-libelle="Parcours">Toutes les expositions</a></p>
+  </div>
+</section>
+<section class="acquerir conteneur" id="acquerir">
+  <div class="acquerir-tete">
+    <p class="surtitre" data-anime>Acquérir une toile</p>
+    <h2 data-anime="lignes">Les prix se donnent à l&#39;atelier</h2>
+    <p data-anime>Aucun prix n&#39;est affiché : demandez-le pour l&#39;œuvre qui vous plaît, par téléphone ou par e-mail. Des sérigraphies existent aussi.</p>
+  </div>
+  <ul class="acquerir-cartes" data-anime="cascade">
+    <li class="acquerir-carte acquerir-carte--atelier" data-survol="incline" data-survol-force="4">
+      <h3>À l&#39;atelier</h3><p>Voir les toiles en vrai à Barjols, demander un prix, réserver une œuvre.</p>
+      <a href="/contact?sujet=oeuvre#formulaire" class="bouton" data-libelle="Contact">Demander un prix</a>
+    </li>
+    <li class="acquerir-carte" data-survol="incline" data-survol-force="4">
+      <h3>Rise Art</h3><p>Une sélection d&#39;œuvres de Marcel Baugier sur la galerie en ligne Rise Art.</p>
+      <a class="lien-fleche" href="https://www.riseart.com/fr#q=baugier" target="_blank" rel="noopener">Voir sur Rise Art</a>
+    </li>
+    <li class="acquerir-carte" data-survol="incline" data-survol-force="4">
+      <h3>Singulart</h3><p>Ses œuvres sont aussi présentées sur Singulart, galerie en ligne d&#39;artistes.</p>
+      <a class="lien-fleche" href="https://www.singulart.com/fr/search?q=baugier" target="_blank" rel="noopener">Voir sur Singulart</a>
+    </li>
+    <li class="acquerir-carte" data-survol="incline" data-survol-force="4">
+      <h3>En galerie</h3><p>Expositions permanentes : Galerie Michelle Champetier à Cannes, Galerie Le Hangart à Draguignan, Galerie Le 5 à Ribérac.</p>
+    </li>
+  </ul>
+</section>
+<section class="fin fin--photo" id="fin">
+  <figure class="media fin-fond" data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/atelier-salle-1-mobile-640.webp 640w, /assets/images/atelier-salle-1-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/atelier-salle-1-1280.webp" srcset="/assets/images/atelier-salle-1-640.webp 640w, /assets/images/atelier-salle-1-1280.webp 1280w, /assets/images/atelier-salle-1-1920.webp 1920w" sizes="100vw" alt="La salle d&#39;exposition de l&#39;atelier Baugier, toiles aux murs" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="fin-texte conteneur">
+    <h2 data-anime="lignes">Venir voir les toiles en vrai</h2>
+    <p data-anime>Joignez le peintre par téléphone, ou rendez-vous directement à l&#39;atelier, 207 rue des Tanneurs à Barjols.</p>
+    <p class="fin-actions" data-anime>
+      <a href="/contact?sujet=visite#formulaire" class="bouton" data-libelle="Contact" data-survol="magnetique">Préparer la visite</a>
+      <a class="bouton bouton--clair" href="tel:+33630181549">Appeler 06 30 18 15 49</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom">Marcel <em>Baugier</em></p>
+      <p>Peintre abstrait, né en 1946 à Barjols. Atelier-galerie de 300 m² dans les anciennes tanneries.</p>
+    </div>
+    <div>
+      <p><strong>Adresse</strong></p>
+      <p>207 rue des Tanneurs, 83670 Barjols<br><a href="tel:+33630181549">06 30 18 15 49</a><br><a href="mailto:baugier@aol.com">baugier@aol.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/oeuvres" data-libelle="Œuvres">Œuvres</a></li><li><a href="/atelier" data-libelle="L&#39;atelier">L&#39;atelier</a></li><li><a href="/parcours" data-libelle="Parcours">Parcours</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales et politique de confidentialité : à compléter</p><p>Maquette de présentation : formulaires simulés, rien n&#39;est envoyé.</p><p>© Marcel Baugier</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33630181549">Appeler</a>
+  <a class="bouton" href="/contact#venir" data-libelle="Contact">Venir à l&#39;atelier</a>
+</div>
+</body>
+</html>

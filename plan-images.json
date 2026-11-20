@@ -1,0 +1,1974 @@
+[
+ {
+  "source": "recu/n-1368-toile-80x80.jpg",
+  "nom": "o-n-1368-toile-80x80",
+  "role": "galerie",
+  "ratio": "1876:1864",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1196-60x40-bois-2018.jpg",
+  "nom": "o-1196-60x40-bois-2018",
+  "role": "galerie",
+  "ratio": "1345:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990.jpg",
+  "nom": "o-annees-1980-1990",
+  "role": "galerie",
+  "ratio": "2000:934",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-2.jpg",
+  "nom": "o-annees-1980-1990-2",
+  "role": "galerie",
+  "ratio": "2000:1690",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-3.jpg",
+  "nom": "o-annees-1980-1990-3",
+  "role": "galerie",
+  "ratio": "2000:1906",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-4.jpg",
+  "nom": "o-annees-1980-1990-4",
+  "role": "galerie",
+  "ratio": "1565:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-5.jpg",
+  "nom": "o-annees-1980-1990-5",
+  "role": "galerie",
+  "ratio": "1940:1940",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-6.jpg",
+  "nom": "o-annees-1980-1990-6",
+  "role": "galerie",
+  "ratio": "1933:1939",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-7.jpg",
+  "nom": "o-annees-1980-1990-7",
+  "role": "galerie",
+  "ratio": "1932:1940",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-8.jpg",
+  "nom": "o-annees-1980-1990-8",
+  "role": "galerie",
+  "ratio": "1620:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-9.jpg",
+  "nom": "o-annees-1980-1990-9",
+  "role": "galerie",
+  "ratio": "1905:1905",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-10.jpg",
+  "nom": "o-annees-1980-1990-10",
+  "role": "galerie",
+  "ratio": "2000:1405",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-11.jpg",
+  "nom": "o-annees-1980-1990-11",
+  "role": "galerie",
+  "ratio": "1890:1434",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-12.jpg",
+  "nom": "o-annees-1980-1990-12",
+  "role": "galerie",
+  "ratio": "1633:1047",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-13.jpg",
+  "nom": "o-annees-1980-1990-13",
+  "role": "galerie",
+  "ratio": "1327:955",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-14.jpg",
+  "nom": "o-annees-1980-1990-14",
+  "role": "galerie",
+  "ratio": "1312:949",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/258-jpg-composition-dominante.jpg",
+  "nom": "o-258-jpg-composition-dominante",
+  "role": "galerie",
+  "ratio": "943:1300",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-15.jpg",
+  "nom": "o-annees-1980-1990-15",
+  "role": "galerie",
+  "ratio": "1225:904",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-16.jpg",
+  "nom": "o-annees-1980-1990-16",
+  "role": "galerie",
+  "ratio": "1138:907",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-17.jpg",
+  "nom": "o-annees-1980-1990-17",
+  "role": "galerie",
+  "ratio": "1015:1006",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-18.jpg",
+  "nom": "o-annees-1980-1990-18",
+  "role": "galerie",
+  "ratio": "961:952",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-19.jpg",
+  "nom": "o-annees-1980-1990-19",
+  "role": "galerie",
+  "ratio": "958:952",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1980-1990-20.jpg",
+  "nom": "o-annees-1980-1990-20",
+  "role": "galerie",
+  "ratio": "946:946",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/414-85x70-toile-1994.jpg",
+  "nom": "o-414-85x70-toile-1994",
+  "role": "galerie",
+  "ratio": "1669:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/463-79x54-bois-1997.jpg",
+  "nom": "o-463-79x54-bois-1997",
+  "role": "galerie",
+  "ratio": "1637:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000.jpg",
+  "nom": "o-annees-1990-2000",
+  "role": "galerie",
+  "ratio": "2000:1957",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/390-85x70-toile-1992.jpg",
+  "nom": "o-390-85x70-toile-1992",
+  "role": "galerie",
+  "ratio": "1648:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000-2.jpg",
+  "nom": "o-annees-1990-2000-2",
+  "role": "galerie",
+  "ratio": "1674:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/424-86x65-toile-1995.jpg",
+  "nom": "o-424-86x65-toile-1995",
+  "role": "galerie",
+  "ratio": "1502:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000-3.jpg",
+  "nom": "o-annees-1990-2000-3",
+  "role": "galerie",
+  "ratio": "1847:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000-4.jpg",
+  "nom": "o-annees-1990-2000-4",
+  "role": "galerie",
+  "ratio": "1941:1890",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000-5.jpg",
+  "nom": "o-annees-1990-2000-5",
+  "role": "galerie",
+  "ratio": "1477:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000-6.jpg",
+  "nom": "o-annees-1990-2000-6",
+  "role": "galerie",
+  "ratio": "861:1073",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000-7.jpg",
+  "nom": "o-annees-1990-2000-7",
+  "role": "galerie",
+  "ratio": "949:943",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-1990-2000-8.jpg",
+  "nom": "o-annees-1990-2000-8",
+  "role": "galerie",
+  "ratio": "613:787",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/754-92x73-toile-2006.jpg",
+  "nom": "o-754-92x73-toile-2006",
+  "role": "galerie",
+  "ratio": "1501:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/761-81x65-toile-2006.jpg",
+  "nom": "o-761-81x65-toile-2006",
+  "role": "galerie",
+  "ratio": "1561:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/749-81x65-toile-2006.jpg",
+  "nom": "o-749-81x65-toile-2006",
+  "role": "galerie",
+  "ratio": "1577:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/780-81x65-toile-2006.jpg",
+  "nom": "o-780-81x65-toile-2006",
+  "role": "galerie",
+  "ratio": "1603:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/667-240x145-toile-2004.jpg",
+  "nom": "o-667-240x145-toile-2004",
+  "role": "galerie",
+  "ratio": "2000:1217",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/711-61x50-papier-toile.jpg",
+  "nom": "o-711-61x50-papier-toile",
+  "role": "galerie",
+  "ratio": "1628:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-2000-2010.jpg",
+  "nom": "o-annees-2000-2010",
+  "role": "galerie",
+  "ratio": "1608:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/814-27x25-bois-2007.jpg",
+  "nom": "o-814-27x25-bois-2007",
+  "role": "galerie",
+  "ratio": "1908:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/692-81x65-toile-2005.jpg",
+  "nom": "o-692-81x65-toile-2005",
+  "role": "galerie",
+  "ratio": "1602:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/732-81x65-toile-2005.jpg",
+  "nom": "o-732-81x65-toile-2005",
+  "role": "galerie",
+  "ratio": "1587:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/764-92x73-toile-2006.jpg",
+  "nom": "o-764-92x73-toile-2006",
+  "role": "galerie",
+  "ratio": "2000:1580",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/719-81x65-papier-toile.jpg",
+  "nom": "o-719-81x65-papier-toile",
+  "role": "galerie",
+  "ratio": "1572:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/672-81x65-bois-04.jpg",
+  "nom": "o-672-81x65-bois-04",
+  "role": "galerie",
+  "ratio": "1534:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/827-100x100-toile-2007.jpg",
+  "nom": "o-827-100x100-toile-2007",
+  "role": "galerie",
+  "ratio": "2000:1985",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/958-6ox4o-panneau-2010.jpg",
+  "nom": "o-958-6ox4o-panneau-2010",
+  "role": "galerie",
+  "ratio": "2000:1336",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/703-81x65-toile-2005.jpg",
+  "nom": "o-703-81x65-toile-2005",
+  "role": "galerie",
+  "ratio": "2000:1545",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/909-81x65-toile-2009.jpg",
+  "nom": "o-909-81x65-toile-2009",
+  "role": "galerie",
+  "ratio": "1609:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/579-41x24toile2002.jpg",
+  "nom": "o-579-41x24toile2002",
+  "role": "galerie",
+  "ratio": "2000:1167",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/881-70x60-papier-toile.jpg",
+  "nom": "o-881-70x60-papier-toile",
+  "role": "galerie",
+  "ratio": "1690:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/879-70x60-papier-toile.jpg",
+  "nom": "o-879-70x60-papier-toile",
+  "role": "galerie",
+  "ratio": "1681:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-2000-2010-2.jpg",
+  "nom": "o-annees-2000-2010-2",
+  "role": "galerie",
+  "ratio": "2000:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/617-61x50papier-toile2003.jpg",
+  "nom": "o-617-61x50papier-toile2003",
+  "role": "galerie",
+  "ratio": "1690:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/689-130x110-toile-2005.jpg",
+  "nom": "o-689-130x110-toile-2005",
+  "role": "galerie",
+  "ratio": "2000:1666",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/952-60x60-toile-2010.jpg",
+  "nom": "o-952-60x60-toile-2010",
+  "role": "galerie",
+  "ratio": "1944:1920",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/637-40x30toile2003.jpg",
+  "nom": "o-637-40x30toile2003",
+  "role": "galerie",
+  "ratio": "1596:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/585-81x65toile2003.jpg",
+  "nom": "o-585-81x65toile2003",
+  "role": "galerie",
+  "ratio": "1590:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/647-41x33papier-toile2004.jpg",
+  "nom": "o-647-41x33papier-toile2004",
+  "role": "galerie",
+  "ratio": "1587:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/656-92x73toile2004.jpg",
+  "nom": "o-656-92x73toile2004",
+  "role": "galerie",
+  "ratio": "1582:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/953-60x60-toile-2010.jpg",
+  "nom": "o-953-60x60-toile-2010",
+  "role": "galerie",
+  "ratio": "1888:1892",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/657-41x33papier-toile2004.jpg",
+  "nom": "o-657-41x33papier-toile2004",
+  "role": "galerie",
+  "ratio": "1579:2000",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/665-100x65toile2004.jpg",
+  "nom": "o-665-100x65toile2004",
+  "role": "galerie",
+  "ratio": "2000:1329",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/annees-2000-2010-3.jpg",
+  "nom": "o-annees-2000-2010-3",
+  "role": "galerie",
+  "ratio": "1121:1106",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1135-60x40-papier-2017.jpg",
+  "nom": "o-1135-60x40-papier-2017",
+  "role": "galerie",
+  "ratio": "2000:1377",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1142-60x40-papier-2017.jpg",
+  "nom": "o-1142-60x40-papier-2017",
+  "role": "galerie",
+  "ratio": "1383:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1114-60x40-panneau-2017.jpg",
+  "nom": "o-1114-60x40-panneau-2017",
+  "role": "galerie",
+  "ratio": "2000:1350",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1121-60x40-toile-2017.jpg",
+  "nom": "o-1121-60x40-toile-2017",
+  "role": "galerie",
+  "ratio": "2000:1333",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1115-60x40-panneau-2017.jpg",
+  "nom": "o-1115-60x40-panneau-2017",
+  "role": "galerie",
+  "ratio": "2000:1340",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1120-90x60-toile-2017.jpg",
+  "nom": "o-1120-90x60-toile-2017",
+  "role": "galerie",
+  "ratio": "2000:1319",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1108-60x40-papier-2017.jpg",
+  "nom": "o-1108-60x40-papier-2017",
+  "role": "galerie",
+  "ratio": "2000:1330",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1118-60x40-panneau-2017.jpg",
+  "nom": "o-1118-60x40-panneau-2017",
+  "role": "galerie",
+  "ratio": "2000:1331",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1113-60x40-toile-2017.jpg",
+  "nom": "o-1113-60x40-toile-2017",
+  "role": "galerie",
+  "ratio": "2000:1345",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1116-60x40-papier-2017.jpg",
+  "nom": "o-1116-60x40-papier-2017",
+  "role": "galerie",
+  "ratio": "2000:1350",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1200-60x40-papier-2018.jpg",
+  "nom": "o-1200-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1312:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1110-60x40-panneau-2017.jpg",
+  "nom": "o-1110-60x40-panneau-2017",
+  "role": "galerie",
+  "ratio": "2000:1339",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1382-papier-70x50.jpg",
+  "nom": "o-n-1382-papier-70x50",
+  "role": "galerie",
+  "ratio": "1340:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1191-60x40-papier-2018.jpg",
+  "nom": "o-1191-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1315:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1119-90x60-toile-2017.jpg",
+  "nom": "o-1119-90x60-toile-2017",
+  "role": "galerie",
+  "ratio": "2000:1315",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1199-60x40-papier-2018.jpg",
+  "nom": "o-1199-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1301:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1128-106x80-toile-2017.jpg",
+  "nom": "o-1128-106x80-toile-2017",
+  "role": "galerie",
+  "ratio": "2000:1493",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1132-60x40-papier-2017.jpg",
+  "nom": "o-1132-60x40-papier-2017",
+  "role": "galerie",
+  "ratio": "2000:1336",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1109-60x40-toile-2017.jpg",
+  "nom": "o-1109-60x40-toile-2017",
+  "role": "galerie",
+  "ratio": "2000:1350",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1388-papier70x50-2024.jpg",
+  "nom": "o-n-1388-papier70x50-2024",
+  "role": "galerie",
+  "ratio": "1329:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1130-60x40-papier-2017.jpg",
+  "nom": "o-1130-60x40-papier-2017",
+  "role": "galerie",
+  "ratio": "2000:1309",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1190-60x40-papier-2018.jpg",
+  "nom": "o-1190-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1311:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1117-60x40-papier-2017.jpg",
+  "nom": "o-1117-60x40-papier-2017",
+  "role": "galerie",
+  "ratio": "2000:1327",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1198-60x40-bois-2018.jpg",
+  "nom": "o-1198-60x40-bois-2018",
+  "role": "galerie",
+  "ratio": "1304:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1197-60x40-bois-2018.jpg",
+  "nom": "o-1197-60x40-bois-2018",
+  "role": "galerie",
+  "ratio": "1348:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1204-60x40-papier-2018.jpg",
+  "nom": "o-1204-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1333:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1203-60x40-papier-2018.jpg",
+  "nom": "o-1203-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1326:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1195-60x40-bois-2018.jpg",
+  "nom": "o-1195-60x40-bois-2018",
+  "role": "galerie",
+  "ratio": "1361:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1383-papier70x50-2024.jpg",
+  "nom": "o-n-1383-papier70x50-2024",
+  "role": "galerie",
+  "ratio": "1317:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1205-60x40-papier-2018.jpg",
+  "nom": "o-1205-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1317:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1193-60x40-papier-2018.jpg",
+  "nom": "o-1193-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1319:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1201-60x40-papier-2018.jpg",
+  "nom": "o-1201-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1317:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1206-100x70-toile-2018.jpg",
+  "nom": "o-1206-100x70-toile-2018",
+  "role": "galerie",
+  "ratio": "1328:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1381-papier-70x50.jpg",
+  "nom": "o-n-1381-papier-70x50",
+  "role": "galerie",
+  "ratio": "1332:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1380-papieer-70x50.jpg",
+  "nom": "o-n-1380-papieer-70x50",
+  "role": "galerie",
+  "ratio": "1329:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1194-60x40-bois-2018.jpg",
+  "nom": "o-1194-60x40-bois-2018",
+  "role": "galerie",
+  "ratio": "1343:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1189-60x40-toile-2018.jpg",
+  "nom": "o-1189-60x40-toile-2018",
+  "role": "galerie",
+  "ratio": "1332:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1122-50x40-papier-2017.jpg",
+  "nom": "o-1122-50x40-papier-2017",
+  "role": "galerie",
+  "ratio": "2000:1612",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/1192-60x40-papier-2018.jpg",
+  "nom": "o-1192-60x40-papier-2018",
+  "role": "galerie",
+  "ratio": "1338:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1370-papier-70x50.jpg",
+  "nom": "o-n-1370-papier-70x50",
+  "role": "galerie",
+  "ratio": "1311:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1375-papier-70x50.jpg",
+  "nom": "o-n-1375-papier-70x50",
+  "role": "galerie",
+  "ratio": "1328:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1371-papier-70x50.jpg",
+  "nom": "o-n-1371-papier-70x50",
+  "role": "galerie",
+  "ratio": "1322:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1385-papier70x50-2024.jpg",
+  "nom": "o-n-1385-papier70x50-2024",
+  "role": "galerie",
+  "ratio": "1320:2000",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 4,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1365-toile-80x80.jpg",
+  "nom": "o-n-1365-toile-80x80",
+  "role": "galerie",
+  "ratio": "1919:1929",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/n-1369-toile-80x80.jpg",
+  "nom": "o-n-1369-toile-80x80",
+  "role": "galerie",
+  "ratio": "1828:1832",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ],
+  "alt": "",
+  "beaute": 5,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/561-40x30-carton-2002.jpg",
+  "nom": "o-561-40x30-carton-2002",
+  "role": "galerie",
+  "ratio": "1041:1405",
+  "largeurs": [
+   480,
+   960
+  ],
+  "alt": "",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/galerie-baugier.jpg",
+  "nom": "atelier-peintre",
+  "role": "portrait",
+  "alt": "Marcel Baugier au travail à sa table de couleurs, dans l'atelier de Barjols",
+  "beaute": 4,
+  "ratio": "3:4",
+  "largeurs": [
+   640,
+   1000,
+   1500
+  ]
+ },
+ {
+  "source": "recu/galerie-baugier-2.jpg",
+  "nom": "atelier-salle-1",
+  "role": "ouverture",
+  "alt": "La salle d'exposition de l'atelier, toiles accrochées le long des murs blancs",
+  "beaute": 4,
+  "mobile": "4:5"
+ },
+ {
+  "source": "recu/galerie-baugier-3.jpg",
+  "nom": "atelier-salle-2",
+  "role": "galerie",
+  "alt": "L'atelier-galerie : toiles aux murs, sculptures et canapé, verrière au fond",
+  "beaute": 4,
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ {
+  "source": "recu/galerie-baugier-4.jpg",
+  "nom": "atelier-salle-3",
+  "role": "galerie",
+  "alt": "Les murs de l'atelier couverts de toiles, sous la charpente des anciennes tanneries",
+  "beaute": 4,
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ {
+  "source": "recu/galerie-baugier-5.jpg",
+  "nom": "atelier-rue",
+  "role": "vignette",
+  "alt": "La rue des Tanneurs à Barjols, devant le bâtiment de l'atelier",
+  "beaute": 2,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/grok/mur-salon.png",
+  "nom": "grok/mur-salon",
+  "role": "ouverture",
+  "page": "accueil",
+  "emplacement": "Section « Chez vous » : mur vide où le code accroche une vraie toile à l'échelle",
+  "priorite": "indispensable",
+  "beaute": 4,
+  "zone_texte": "gauche",
+  "mobile": false,
+  "consigne_scene": "A bright Provençal living room seen perfectly frontally, camera at eye level and parallel to the wall: a large empty limewashed off-white wall filling the upper two thirds of the frame, a long low pale oak sideboard exactly 180 cm wide standing centred against the wall, hexagonal terracotta floor tiles, soft daylight from a window off frame on the left, a small ceramic jug on the sideboard, nothing hanging on the wall.",
+  "alt": "Mur blanc d'un salon au-dessus d'une longue console en chêne"
+ },
+ {
+  "source": "recu/grok/collines.png",
+  "nom": "grok/collines",
+  "role": "ouverture",
+  "page": "parcours",
+  "emplacement": "Ouverture de la page Parcours : les collines qui ont nourri sa couleur",
+  "priorite": "indispensable",
+  "beaute": 4,
+  "zone_texte": "gauche",
+  "source_mobile": "recu/grok/collines-mobile.png",
+  "mobile": "9:16",
+  "consigne_scene": "Wide landscape of the rolling hills of the Haut-Var in Provence, dark green Aleppo and umbrella pines, patches of ochre and red earth, dry stone terraces, soft early morning light with a light haze in the valleys, no village, no buildings, no road, no people, calm sky occupying the upper third.",
+  "alt": "Collines de Provence couvertes de pins, terre ocre au matin"
+ },
+ {
+  "source": "recu/grok/cadre-vide.png",
+  "nom": "grok/cadre-vide",
+  "role": "404",
+  "page": "404",
+  "emplacement": "Page introuvable : un cadre vide posé contre le mur",
+  "priorite": "conseillée",
+  "beaute": 4,
+  "zone_texte": "gauche",
+  "alt": "Un cadre vide posé contre un mur blanc"
+ }
+]
