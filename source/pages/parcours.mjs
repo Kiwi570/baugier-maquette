@@ -28,6 +28,7 @@ export default (c) => {
   <h2 data-anime="lignes">${c.t('parcours.friseTitre')}</h2>
   <ol class="frise-liste">
     <svg class="frise-trait" viewBox="0 0 4 1000" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M2 0V1000" stroke="currentColor" stroke-width="2" fill="none" vector-effect="non-scaling-stroke"/></svg>
+    <span class="frise-point" aria-hidden="true" data-effet="frise-point" data-audit-ignorer></span>
     ${c.donnees.parcours.map((e, i) => html`<li class="frise-etape ${e.image ? 'frise-etape--image' : ''}" data-anime>
       <p class="frise-annee">${e.annee}</p>
       <div class="frise-corps"><h3>${e.titre}</h3><p>${e.texte}</p></div>
@@ -53,14 +54,14 @@ export default (c) => {
 
 <section class="expositions conteneur" id="expositions">
   <div class="expositions-tete">
-    <h2 data-anime="lignes">${c.t('parcours.expoTitre')}</h2>
+    <h2 data-anime="lignes"><span data-compteur="40">40</span> ${c.t('parcours.expoTitreMot')}</h2>
     <p data-anime>${c.t('parcours.expoTexte')}</p>
   </div>
   <div class="expositions-grille">
-    ${c.donnees.expositions.map((g) => html`<div class="expo-groupe" data-anime>
-      <h3>${g.region} <span>${g.lieux.length}</span></h3>
-      <ul data-anime="cascade">${g.lieux.map(([v, l]) => html`<li><strong>${v}</strong><span>${l}</span></li>`)}</ul>
-    </div>`)}
+    ${c.donnees.expositions.map((g) => html`<details class="expo-groupe" data-anime open>
+      <summary><h3>${g.region} <span>${g.lieux.length}</span></h3></summary>
+      <ul>${g.lieux.map(([v, l]) => html`<li><strong>${v}</strong><span>${l}</span></li>`)}</ul>
+    </details>`)}
   </div>
   <div class="reconnu" data-anime>
     <h3>${c.t('parcours.reconnuTitre')}</h3>

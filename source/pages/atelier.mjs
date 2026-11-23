@@ -5,7 +5,13 @@ import { oeuvreFigure } from '../gabarits/oeuvres.mjs';
 
 export const page = { cle: 'atelier', fichier: 'atelier', imagePartage: 'atelier-salle-1' };
 
-export default (c) => { const O = Object.fromEntries(c.donnees.oeuvres.map((o) => [o.id, o])); return html`
+export default (c) => {
+  const O = Object.fromEntries(c.donnees.oeuvres.map((o) => [o.id, o]));
+  const compte = (k) => c.donnees.oeuvres.filter((o) => o.support === k).length;
+  const supports = ['papier', 'toile', 'bois', 'carton'].map((k) => [k, compte(k)]);
+  const max = Math.max(...supports.map((x) => x[1]));
+  const inconnus = c.donnees.oeuvres.filter((o) => !o.support).length;
+  return html`
 <section class="atelier-tete" id="debut">
   ${c.media({ nom: 'atelier-salle-1', alt: c.s('atelier.alt'), priorite: true, classe: 'atelier-tete-fond', sizes: '100vw', cadrage: '50% 45%', attrs: 'data-iris-centre data-fx="parallaxe" data-fx-force="8"' })}
   <div class="atelier-tete-texte conteneur">
@@ -21,7 +27,7 @@ export default (c) => { const O = Object.fromEntries(c.donnees.oeuvres.map((o) =
   <ul class="grands-chiffres" data-anime="cascade" data-visuel>
     <li><strong>1985</strong><span>${c.t('atelier.c1')}</span></li>
     <li><strong data-compteur="300">300</strong><span>${c.t('atelier.c2')}</span></li>
-    <li><strong>2</strong><span>${c.t('atelier.c3')}</span></li>
+    <li><strong data-compteur="113">113</strong><span>${c.t('atelier.c3')}</span></li>
   </ul>
 </section>
 
@@ -30,6 +36,11 @@ export default (c) => { const O = Object.fromEntries(c.donnees.oeuvres.map((o) =
   <div>
     <h2 data-anime="lignes">${c.t('atelier.peintreTitre')}</h2>
     <p data-anime>${c.t('atelier.peintreTexte')}</p>
+    <div class="supports" data-effet="supports">
+      <p class="supports-titre">${c.t('atelier.supportsTitre')}</p>
+      <ul>${supports.map(([cle, n]) => html`<li style="--part:${(n / max).toFixed(3)}"><span class="supports-nom">${c.t('oeuvres.s-' + cle)}</span><span class="supports-barre"><i></i></span><span class="supports-n">${n}</span></li>`)}</ul>
+      <p class="supports-note">${c.t('atelier.supportsNote', { n: inconnus })}</p>
+    </div>
     <p data-anime>${c.lien('oeuvres', { classe: 'lien-fleche', texte: c.t('commun.voirOeuvres') })}</p>
   </div>
 </section>

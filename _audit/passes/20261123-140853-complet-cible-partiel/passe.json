@@ -1,0 +1,18 @@
+{
+ "id": "20261123-140853-complet-cible-partiel",
+ "date": "2026-11-23T14:13:56.277Z",
+ "niveau": "complet",
+ "pages": "/,/oeuvres,/parcours",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "ecran",
+  "mouvement"
+ ],
+ "version": "2",
+ "echecs": 1,
+ "aRegarder": 2,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

@@ -32,6 +32,7 @@ export function mur(c, oeuvres, { alt = '', repere = '', classe = '' } = {}) {
     <div class="mur-toile" data-toile data-effet="accrochage" style="--l:${o.l};--h:${o.h}">
       <img src="/assets/images/${o.image}-960.webp" alt="${o.alt}" width="960" height="${Math.round(960 / o.ratio)}" loading="lazy" decoding="async">
     </div>
+    <p class="mur-cartel" data-mur-cartel aria-hidden="true"><strong>${o.titre}</strong><span>${o.dims || ''}</span><span>Marcel Baugier</span></p>
     <p class="mur-repere" aria-hidden="true">${repere}</p>
   </div>
 </div>`;

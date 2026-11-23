@@ -98,7 +98,8 @@
       "droite": "145 cm",
       "titre": "Une toile de 2,40 mètres",
       "legende": "N° 667 · Acrylique sur toile · 240 × 145 cm · 2004",
-      "alt": "Marcel Baugier, toile n° 667, 2004 : grands aplats turquoise, bleu nuit, rose et vert découpés en éclats"
+      "alt": "Marcel Baugier, toile n° 667, 2004 : grands aplats turquoise, bleu nuit, rose et vert découpés en éclats",
+      "repere": "Cotes réelles : 240 cm de large, 145 cm de haut"
     },
     "atelier": {
       "surtitre": "L'atelier-galerie",
@@ -141,7 +142,8 @@
       "titre": "Venir voir les toiles en vrai",
       "texte": "Joignez le peintre par téléphone, ou rendez-vous directement à l'atelier, 207 rue des Tanneurs à Barjols.",
       "action": "Préparer la visite",
-      "alt": "La salle d'exposition de l'atelier Baugier, toiles aux murs"
+      "alt": "La salle d'exposition de l'atelier Baugier, toiles aux murs",
+      "surtitre": "L'atelier, 207 rue des Tanneurs"
     }
   },
   "oeuvres": {
@@ -182,7 +184,8 @@
     "finTitre": "Les toiles se regardent mieux en vrai",
     "finTexte": "À l'atelier de Barjols, les toiles sont accrochées sur 300 m² : on peut les voir de près, les comparer, en parler avec le peintre.",
     "finAction": "Venir à l'atelier",
-    "finAlt": "Les murs de l'atelier couverts de toiles, sous la charpente"
+    "finAlt": "Les murs de l'atelier couverts de toiles, sous la charpente",
+    "hasard": "Une œuvre au hasard"
   },
   "atelier": {
     "surtitre": "L'atelier-galerie",
@@ -195,7 +198,7 @@
     "chiffresTitre": "L'atelier en trois chiffres",
     "c1": "l'année où le peintre construit l'atelier",
     "c2": "m² sous la charpente des tanneries",
-    "c3": "espaces : l'atelier et la salle d'exposition",
+    "c3": "œuvres au catalogue, de 1980 à 2024",
     "peintreTitre": "La table aux couleurs",
     "peintreTexte": "C'est ici que tout se prépare : pots d'acrylique, pinceaux, papiers, toiles en attente. Depuis les années 1980, Baugier peint à l'acrylique, sur toile, papier, bois ou carton.",
     "peintreAlt": "Marcel Baugier à sa table de travail, entouré de pots de couleur",
@@ -213,7 +216,9 @@
     "finTitre": "Une toile vous a plu ?",
     "finTexte": "Notez son numéro : le peintre vous en donnera le prix et vous la montrera à l'atelier.",
     "finAction": "Demander une œuvre",
-    "finAlt": "Marcel Baugier au travail à sa table de couleurs"
+    "finAlt": "Marcel Baugier au travail à sa table de couleurs",
+    "supportsTitre": "Sur quoi il peint",
+    "supportsNote": "Parmi les œuvres du catalogue dont le support est connu ({n} sans légende)."
   },
   "parcours": {
     "surtitre": "Parcours",
@@ -239,7 +244,8 @@
     "finTitre": "Voir où en est la peinture aujourd'hui",
     "finTexte": "Les toiles de 2023 et 2024 sont à l'atelier : grilles grises, couleurs franches, la géométrie claire de la dernière période.",
     "finAction": "Les toiles récentes",
-    "finAlt": "Marcel Baugier, toile n° 1365, 2023"
+    "finAlt": "Marcel Baugier, toile n° 1365, 2023",
+    "expoTitreMot": "expositions"
   },
   "contact": {
     "surtitre": "Contact",

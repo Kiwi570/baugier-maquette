@@ -1,6 +1,7 @@
 /* Catalogue des œuvres : filtres gardés dans l'adresse (?decennie=2000&support=toile), passage en fondu,
    visionneuse ouverte par ?oeuvre=<id> (loupe à la souris, glissement au doigt, flèches, Échap, voir au mur). */
-import { suivre, lacher, rafraichir, quand } from './socle/index.js?v=1';
+import { suivre, lacher, rafraichir, quand } from './socle/index.js?v=2';
+import { majCartel } from './site.js?v=2';
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -77,7 +78,8 @@ export function initCatalogue() {
       if (murToile) {
         murToile.style.setProperty('--l', o.l || 60);
         murImg.src = `/assets/images/${o.image}-960.webp`; murImg.alt = o.alt; murImg.height = Math.round(960 / o.ratio);
-        boutonMur.disabled = !o.l;
+        boutonMur.hidden = !o.l;
+        majCartel(murEl, o);
         if (!o.l && auMur) basculerMur(false);
       }
       loupe.style.backgroundImage = `url(${source})`;
@@ -95,6 +97,7 @@ export function initCatalogue() {
     vis.classList.toggle('vis--mur', v);
     boutonMur.setAttribute('aria-pressed', String(v));
     boutonMur.textContent = v ? boutonMur.dataset.libelleSeule : boutonMur.dataset.libelleMur;
+    if (v) requestAnimationFrame(() => majCartel(murEl, donnees.find((x) => x.id === liste()[index]) || donnees[0]));
     if (v && gsap && murToile) gsap.fromTo(murImg, { yPercent: -12, rotation: 3, opacity: 0 }, { yPercent: 0, rotation: 0, opacity: 1, duration: 1, ease: 'elastic.out(1, .5)', transformOrigin: '50% 0%' });
   };
   const ouvrir = (id, declencheur) => {
@@ -128,6 +131,11 @@ export function initCatalogue() {
     ouvrir(a.dataset.oeuvre, a);
   });
   $('[data-vis-fermer]', vis).addEventListener('click', fermer);
+  const hasard = $('[data-hasard]', cat);
+  if (hasard) hasard.addEventListener('click', () => {
+    const l = liste();
+    if (l.length) ouvrir(l[Math.floor(Math.random() * l.length)], hasard);
+  });
   $('[data-vis-prec]', vis).addEventListener('click', () => voisin(-1));
   $('[data-vis-suiv]', vis).addEventListener('click', () => voisin(1));
   boutonMur.addEventListener('click', () => basculerMur(!auMur));

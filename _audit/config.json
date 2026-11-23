@@ -1,5 +1,19 @@
 {
-  "pagesTypes": ["/", "/oeuvres", "/atelier", "/parcours", "/contact"],
-  "effets": ["fond-teinte", "accrochage", "ruban-oeuvres", "annee-qui-defile"],
+  "pagesTypes": [
+    "/",
+    "/oeuvres",
+    "/atelier",
+    "/parcours",
+    "/contact"
+  ],
+  "effets": [
+    "fond-teinte",
+    "accrochage",
+    "ruban-oeuvres",
+    "annee-qui-defile",
+    "cotes",
+    "accrochage-salon",
+    "supports"
+  ],
   "siteActuel": "baugier.com"
 }

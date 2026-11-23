@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4F1EA">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -123,6 +123,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <h2 data-anime="lignes">Une vie de peintre</h2>
   <ol class="frise-liste">
     <svg class="frise-trait" viewBox="0 0 4 1000" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M2 0V1000" stroke="currentColor" stroke-width="2" fill="none" vector-effect="non-scaling-stroke"/></svg>
+    <span class="frise-point" aria-hidden="true" data-effet="frise-point" data-audit-ignorer></span>
     <li class="frise-etape " data-anime>
       <p class="frise-annee">1946</p>
       <div class="frise-corps"><h3>Naissance à Barjols</h3><p>Marcel Baugier naît le 13 juin à Barjols, dans le Var. Lycée Raynouard à Brignoles, baccalauréat mathématiques élémentaires en 1965.</p></div>
@@ -209,26 +210,26 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="expositions conteneur" id="expositions">
   <div class="expositions-tete">
-    <h2 data-anime="lignes">40 expositions</h2>
+    <h2 data-anime="lignes"><span data-compteur="40">40</span> expositions</h2>
     <p data-anime>Telles qu&#39;elles figurent sur le site de l&#39;artiste, classées par région. Seules quelques-unes sont datées.</p>
   </div>
   <div class="expositions-grille">
-    <div class="expo-groupe" data-anime>
-      <h3>Var et Provence <span>22</span></h3>
-      <ul data-anime="cascade"><li><strong>Salernes</strong><span>Musée Terra Rossa</span></li><li><strong>Entrecasteaux</strong><span>Le vieux moulin</span></li><li><strong>Draguignan</strong><span>Galerie « Le Hangart »</span></li><li><strong>Draguignan</strong><span>« ETE Contemporain »</span></li><li><strong>Gréoux-les-Bains</strong><span>Château des Templiers</span></li><li><strong>Brignoles</strong><span>Galerie D.A.R.D</span></li><li><strong>Marseille</strong><span>Atelier Garnier</span></li><li><strong>Marseille</strong><span>Galerie « Intermezzo »</span></li><li><strong>Marseille</strong><span>Espace Garnier</span></li><li><strong>La Seyne</strong><span>Villa Tamaris Pacha, groupe Elstir</span></li><li><strong>Toulon</strong><span>Galerie « Zagart »</span></li><li><strong>Toulon</strong><span>Galerie « REMP&#39;ARTS »</span></li><li><strong>Aix-en-Provence</strong><span>Galerie Karina Piluso</span></li><li><strong>Saint-Maximin</strong><span>Collège d&#39;échanges contemporains</span></li><li><strong>Forcalquier</strong><span>Association « ETC. »</span></li><li><strong>Lorgues</strong><span>Galerie Atlan, reportage FR3 Nice</span></li><li><strong>Avignon</strong><span>Galerie « Aura des Arts »</span></li><li><strong>Avignon</strong><span>Helios Galerie</span></li><li><strong>La Garde-Freinet</strong><span>« Léz&#39;art plastique »</span></li><li><strong>Hyères</strong><span>Espace 3000</span></li><li><strong>La Garde</strong><span>Mairie</span></li><li><strong>La Garde</strong><span>1er carrefour régional « Art et création »</span></li></ul>
-    </div><div class="expo-groupe" data-anime>
-      <h3>Côte d&#39;Azur et Monaco <span>5</span></h3>
-      <ul data-anime="cascade"><li><strong>Cannes</strong><span>Galerie Michelle Champetier</span></li><li><strong>Menton</strong><span>Musée des Beaux-Arts, Rencontres internationales</span></li><li><strong>Menton</strong><span>Chapelle Saint-Jacques</span></li><li><strong>Nice</strong><span>Art Jonction International</span></li><li><strong>Monaco</strong><span>Art Center</span></li></ul>
-    </div><div class="expo-groupe" data-anime>
-      <h3>Paris <span>6</span></h3>
-      <ul data-anime="cascade"><li><strong>Paris</strong><span>GMAC Bastille</span></li><li><strong>Paris</strong><span>Galerie Leitner</span></li><li><strong>Paris</strong><span>Salon international du petit format</span></li><li><strong>Paris</strong><span>Salon des Indépendants</span></li><li><strong>Paris</strong><span>Salon d&#39;Automne, 1989</span></li><li><strong>Paris</strong><span>Salon Révélations</span></li></ul>
-    </div><div class="expo-groupe" data-anime>
-      <h3>Ailleurs en France <span>1</span></h3>
-      <ul data-anime="cascade"><li><strong>Gueugnon</strong><span>Château d&#39;Aux, groupe Equinoxe</span></li></ul>
-    </div><div class="expo-groupe" data-anime>
-      <h3>À l&#39;étranger <span>6</span></h3>
-      <ul data-anime="cascade"><li><strong>Florence</strong><span>Biennale internationale, 2003</span></li><li><strong>Aix-la-Chapelle</strong><span>Galerie Hanni Jantzen</span></li><li><strong>Sion (Suisse)</strong><span>Galerie « Espace Ambuel »</span></li><li><strong>Gand</strong><span>« LINEART »</span></li><li><strong>Garessio (Italie)</strong><span>1988</span></li><li><strong>Riyad</strong><span>M.M.F, Ambassade de France</span></li></ul>
-    </div>
+    <details class="expo-groupe" data-anime open>
+      <summary><h3>Var et Provence <span>22</span></h3></summary>
+      <ul><li><strong>Salernes</strong><span>Musée Terra Rossa</span></li><li><strong>Entrecasteaux</strong><span>Le vieux moulin</span></li><li><strong>Draguignan</strong><span>Galerie « Le Hangart »</span></li><li><strong>Draguignan</strong><span>« ETE Contemporain »</span></li><li><strong>Gréoux-les-Bains</strong><span>Château des Templiers</span></li><li><strong>Brignoles</strong><span>Galerie D.A.R.D</span></li><li><strong>Marseille</strong><span>Atelier Garnier</span></li><li><strong>Marseille</strong><span>Galerie « Intermezzo »</span></li><li><strong>Marseille</strong><span>Espace Garnier</span></li><li><strong>La Seyne</strong><span>Villa Tamaris Pacha, groupe Elstir</span></li><li><strong>Toulon</strong><span>Galerie « Zagart »</span></li><li><strong>Toulon</strong><span>Galerie « REMP&#39;ARTS »</span></li><li><strong>Aix-en-Provence</strong><span>Galerie Karina Piluso</span></li><li><strong>Saint-Maximin</strong><span>Collège d&#39;échanges contemporains</span></li><li><strong>Forcalquier</strong><span>Association « ETC. »</span></li><li><strong>Lorgues</strong><span>Galerie Atlan, reportage FR3 Nice</span></li><li><strong>Avignon</strong><span>Galerie « Aura des Arts »</span></li><li><strong>Avignon</strong><span>Helios Galerie</span></li><li><strong>La Garde-Freinet</strong><span>« Léz&#39;art plastique »</span></li><li><strong>Hyères</strong><span>Espace 3000</span></li><li><strong>La Garde</strong><span>Mairie</span></li><li><strong>La Garde</strong><span>1er carrefour régional « Art et création »</span></li></ul>
+    </details><details class="expo-groupe" data-anime open>
+      <summary><h3>Côte d&#39;Azur et Monaco <span>5</span></h3></summary>
+      <ul><li><strong>Cannes</strong><span>Galerie Michelle Champetier</span></li><li><strong>Menton</strong><span>Musée des Beaux-Arts, Rencontres internationales</span></li><li><strong>Menton</strong><span>Chapelle Saint-Jacques</span></li><li><strong>Nice</strong><span>Art Jonction International</span></li><li><strong>Monaco</strong><span>Art Center</span></li></ul>
+    </details><details class="expo-groupe" data-anime open>
+      <summary><h3>Paris <span>6</span></h3></summary>
+      <ul><li><strong>Paris</strong><span>GMAC Bastille</span></li><li><strong>Paris</strong><span>Galerie Leitner</span></li><li><strong>Paris</strong><span>Salon international du petit format</span></li><li><strong>Paris</strong><span>Salon des Indépendants</span></li><li><strong>Paris</strong><span>Salon d&#39;Automne, 1989</span></li><li><strong>Paris</strong><span>Salon Révélations</span></li></ul>
+    </details><details class="expo-groupe" data-anime open>
+      <summary><h3>Ailleurs en France <span>1</span></h3></summary>
+      <ul><li><strong>Gueugnon</strong><span>Château d&#39;Aux, groupe Equinoxe</span></li></ul>
+    </details><details class="expo-groupe" data-anime open>
+      <summary><h3>À l&#39;étranger <span>6</span></h3></summary>
+      <ul><li><strong>Florence</strong><span>Biennale internationale, 2003</span></li><li><strong>Aix-la-Chapelle</strong><span>Galerie Hanni Jantzen</span></li><li><strong>Sion (Suisse)</strong><span>Galerie « Espace Ambuel »</span></li><li><strong>Gand</strong><span>« LINEART »</span></li><li><strong>Garessio (Italie)</strong><span>1988</span></li><li><strong>Riyad</strong><span>M.M.F, Ambassade de France</span></li></ul>
+    </details>
   </div>
   <div class="reconnu" data-anime>
     <h3>Ventes et collections</h3>

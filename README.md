@@ -3,13 +3,21 @@
 Maquette de présentation du site de **Marcel Baugier**, peintre abstrait, atelier-galerie de Barjols (Var).
 Adresse en ligne : https://baugier-maquette.vercel.app
 
-## Pages (v1)
+## Pages (v2)
 
-- **Accueil** : la toile n° 1368 qui se construit (intro), le mot de Jean Vautrin, quatre décennies en salles (le mur prend la couleur de la toile regardée), la plus grande toile (240 × 145 cm) en plein cadre, l'atelier des tanneries, « Chez vous » (accrochage à l'échelle réelle au-dessus d'une console de 180 cm), reconnaissance, acquérir, venir.
-- **Œuvres** : les 113 œuvres du site actuel, filtrables par période, support et format (filtres gardés dans l'adresse), visionneuse avec loupe, voir au mur à l'échelle et « Demander cette œuvre » (lien direct par œuvre : `/oeuvres?oeuvre=1368`).
-- **L'atelier** : la salle des tanneries, les chiffres, la table aux couleurs, les toiles au mur, la vidéo Instagram, les expositions permanentes.
-- **Parcours** : la vie du peintre (frise), le texte de Jean Vautrin, les 40 expositions classées par région, ventes et achats publics.
-- **Contact** : téléphone, e-mail, adresse, formulaire simulé (prérempli depuis une œuvre), schéma d'accès.
+- **Accueil** :
+  - la toile n° 1368 qui se construit (intro), puis la lumière de la verrière ;
+  - le mot de Jean Vautrin ;
+  - quatre salles où les toiles s'accrochent au défilement et où le mur prend leur teinte ;
+  - la plus grande toile (240 × 145 cm), dont les cotes se tracent ;
+  - l'atelier des tanneries ;
+  - « Chez vous » : accrochage à l'échelle réelle au-dessus d'une console de 180 cm, avec un cartel de musée ;
+  - reconnaissance, acquérir ;
+  - un mur d'accrochage en salon de dix toiles pour venir à l'atelier.
+- **Œuvres** : les 113 œuvres, filtrables par période, support et format (les filtres restent dans l'adresse), plus « Une œuvre au hasard ». La visionneuse propose une loupe, « Voir au mur » avec cartel et « Demander cette œuvre ». Chaque œuvre a son lien direct : `/oeuvres?oeuvre=1368`.
+- **L'atelier** : la salle des tanneries, les chiffres, la table aux couleurs avec « Sur quoi il peint », les toiles au mur, la vidéo Instagram, les expositions permanentes.
+- **Parcours** : la frise de la vie du peintre, suivie d'un point qui avance au défilement ; le texte de Jean Vautrin ; les 40 expositions par région (en accordéon sur téléphone) ; les ventes et achats publics.
+- **Contact** : téléphone, e-mail et adresse, un formulaire simulé (prérempli depuis une œuvre) et un schéma d'accès.
 - **404** : un cadre vide.
 
 Pages du site actuel non reprises : aucune (les quatre pages par décennie sont réunies dans Œuvres, avec un lien direct par période : `/oeuvres?decennie=1980`).

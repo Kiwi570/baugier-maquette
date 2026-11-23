@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4F1EA">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -142,6 +142,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <button type="button" class="puce" data-filtre="format" data-valeur="petit" aria-pressed="false">Petit (≤ 50 cm)</button><button type="button" class="puce" data-filtre="format" data-valeur="moyen" aria-pressed="false">Moyen</button><button type="button" class="puce" data-filtre="format" data-valeur="grand" aria-pressed="false">Grand (≥ 90 cm)</button>
   </div>
     <p class="catalogue-compte" aria-live="polite" data-compte data-modele="{n} œuvres">113 œuvres</p>
+    <button type="button" class="bouton bouton--contour hasard" data-hasard>Une œuvre au hasard</button>
   </div>
   <ul class="cat-mur" data-anime="cascade">
     <li class="cat-item" style="--r:0.6645;--teinte:#f93b17" data-decennie="2010" data-support="papier" data-format="moyen" data-id="1388">
@@ -1166,27 +1167,26 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </ul>
   <div class="catalogue-vide" data-vide hidden><p>Aucune œuvre ne correspond à ces filtres.</p><button type="button" class="bouton bouton--contour" data-effacer>Effacer les filtres</button></div>
 </section>
-<section class="en-ligne conteneur" id="en-ligne">
-  <div>
-    <h2 data-anime="lignes">Aussi en ligne</h2>
-    <p data-anime>Une sélection est proposée sur Rise Art et Singulart. Les prix de l&#39;atelier se demandent directement au peintre.</p>
-  </div>
-  <p class="en-ligne-liens" data-anime="cascade">
-    <a class="bouton bouton--contour" href="https://www.riseart.com/fr#q=baugier" target="_blank" rel="noopener">Rise Art</a>
-    <a class="bouton bouton--contour" href="https://www.singulart.com/fr/search?q=baugier" target="_blank" rel="noopener">Singulart</a>
-    <a href="/contact?sujet=serigraphie#formulaire" class="bouton bouton--contour" data-libelle="Contact">Sérigraphies</a>
-  </p>
-</section>
-<section class="fin fin--photo" id="fin">
-  <figure class="media fin-fond" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 50%">
+<section class="fin-oeuvre fin-oeuvre--pierre" id="fin">
+  <div class="conteneur fin-oeuvre-grille">
+    <div>
+      <h2 data-anime="lignes">Les toiles se regardent mieux en vrai</h2>
+      <p data-anime>À l&#39;atelier de Barjols, les toiles sont accrochées sur 300 m² : on peut les voir de près, les comparer, en parler avec le peintre.</p>
+      <p class="fin-actions" data-anime><a href="/contact?sujet=visite#formulaire" class="bouton" data-libelle="Contact">Venir à l&#39;atelier</a></p>
+      <div class="fin-en-ligne" id="en-ligne" data-anime>
+        <p><strong>Aussi en ligne.</strong> Une sélection est proposée sur Rise Art et Singulart. Les prix de l&#39;atelier se demandent directement au peintre.</p>
+        <p class="en-ligne-liens">
+          <a class="lien-fleche" href="https://www.riseart.com/fr#q=baugier" target="_blank" rel="noopener">Rise Art</a>
+          <a class="lien-fleche" href="https://www.singulart.com/fr/search?q=baugier" target="_blank" rel="noopener">Singulart</a>
+          <a href="/contact?sujet=serigraphie#formulaire" class="lien-fleche" data-libelle="Contact">Sérigraphies</a>
+        </p>
+      </div>
+    </div>
+    <figure class="media fin-oeuvre-photo" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
   <picture>
-    <img src="/assets/images/atelier-salle-3-1600.webp" srcset="/assets/images/atelier-salle-3-640.webp 640w, /assets/images/atelier-salle-3-1024.webp 1024w, /assets/images/atelier-salle-3-1600.webp 1600w" sizes="100vw" alt="Les murs de l&#39;atelier couverts de toiles, sous la charpente" width="1600" height="1200" loading="lazy" decoding="async">
+    <img src="/assets/images/atelier-salle-3-1600.webp" srcset="/assets/images/atelier-salle-3-640.webp 640w, /assets/images/atelier-salle-3-1024.webp 1024w, /assets/images/atelier-salle-3-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 44vw" alt="Les murs de l&#39;atelier couverts de toiles, sous la charpente" width="1600" height="1200" loading="lazy" decoding="async">
   </picture>
 </figure>
-  <div class="fin-texte conteneur">
-    <h2 data-anime="lignes">Les toiles se regardent mieux en vrai</h2>
-    <p data-anime>À l&#39;atelier de Barjols, les toiles sont accrochées sur 300 m² : on peut les voir de près, les comparer, en parler avec le peintre.</p>
-    <p class="fin-actions" data-anime><a href="/contact?sujet=visite#formulaire" class="bouton" data-libelle="Contact">Venir à l&#39;atelier</a></p>
   </div>
 </section>
 <div class="visionneuse" data-visionneuse data-recouvrement role="dialog" aria-modal="true" aria-label="Visionneuse" hidden>
@@ -1213,6 +1213,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="mur-toile" data-toile data-effet="accrochage" style="--l:50;--h:70">
       <img src="/assets/images/o-n-1388-papier70x50-2024-960.webp" alt="Marcel Baugier, N° 1388, acrylique sur papier, 70 × 50 cm, 2024" width="960" height="1445" loading="lazy" decoding="async">
     </div>
+    <p class="mur-cartel" data-mur-cartel aria-hidden="true"><strong>N° 1388</strong><span>70 × 50 cm</span><span>Marcel Baugier</span></p>
     <p class="mur-repere" aria-hidden="true">Console : 180 cm</p>
   </div>
 </div>

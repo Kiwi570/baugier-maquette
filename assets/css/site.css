@@ -74,7 +74,8 @@ html.js:not(.secours):not(.titres-poses):not([data-arrivee="retour"]) .ligne-mas
 .hero-info { font-size: .92rem; font-weight: 500; }
 .hero-oeuvre { display: flex; flex-direction: column; align-items: stretch; }
 .hero-cadre { position: relative; height: min(70svh, 44vw, 760px); max-width: 100%; }
-.hero-cadre .oeuvre-media { position: absolute; inset: 0; }
+.hero-cadre .oeuvre-media, .hero-lien { position: absolute; inset: 0; }
+.hero-lien { display: block; }
 .hero-cartel { width: 100%; }
 .toile-grille { position: absolute; inset: 0; display: none; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(5, 1fr); pointer-events: none; }
 html.js[data-arrivee="intro"]:not(.secours):not(.toile-faite) .toile-grille { display: grid; }
@@ -128,21 +129,39 @@ html.js[data-arrivee="intro"]:not(.secours):not(.toile-faite) .toile-grille { di
   .salle-oeuvre .oeuvre-media { height: 42svh; width: auto; max-height: none; }
 }
 
-/* La plus grande toile : vignette qui s'ouvre jusqu'au cadre complet. */
-.grande { --fx-longueur: 165svh; background: var(--fond); }
-.grande-collant { height: 100svh; display: grid; grid-template-rows: minmax(0, 1fr) auto; padding: clamp(16px, 4vh, 40px) var(--gouttiere) clamp(16px, 3vh, 32px); position: relative; overflow: hidden; }
-.grande-media { position: relative; z-index: 1; background: var(--encre); border-radius: 0; min-height: 0; }
-.grande-media img { object-fit: contain; }
-.grande-mot { position: absolute; top: 38%; margin: 0; font-family: var(--police-titres); font-size: clamp(3rem, 8vw, 8.5rem); line-height: 1; color: #D3CABA; z-index: 0; white-space: nowrap; }
-.grande-mot--g { left: 3vw; }
-.grande-mot--d { right: 3vw; }
-.grande-texte { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 28px; padding-top: 16px; }
-.grande-texte .surtitre { margin: 0; }
-.grande-texte h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); margin: 0; }
-.grande-texte .cartel { margin: 0; }
-html:not(.js) .grande, html.secours .grande { --fx-longueur: auto; }
-html:not(.js) .grande-collant, html.secours .grande-collant { height: auto; }
-html:not(.js) .grande-media, html.secours .grande-media { aspect-ratio: 240 / 145; }
+/* La plus grande toile : des cotes d'architecte se tracent, puis la toile remplit son cadre. */
+.grande { position: relative; background: var(--fond); height: 200svh; }
+.grande-collant { position: sticky; top: 0; height: 100svh; display: flex; flex-direction: column; justify-content: center; gap: clamp(14px, 2.4vh, 28px); padding-block: clamp(20px, 4vh, 48px); overflow: hidden; }
+.grande-tete { display: flex; align-items: baseline; gap: 8px 28px; flex-wrap: wrap; }
+.grande-tete .surtitre { margin: 0; }
+.grande-tete h2 { margin: 0; font-size: clamp(2rem, min(4vw, 6vh), 3.6rem); }
+.grande-cadre { position: relative; width: min(80vw, calc(100vw - 2 * var(--gouttiere) - 200px), calc((100svh - 300px) * 1.655)); aspect-ratio: 240 / 145; margin-inline: auto; color: var(--accent); }
+.grande-toile { position: absolute; inset: 0; }
+.grande-media { position: absolute; inset: 0; background: transparent; box-shadow: 0 30px 60px -30px rgba(27, 26, 23, .5); }
+.cote { position: absolute; display: block; }
+.cote i { position: absolute; display: block; background: currentColor; }
+.cote::before, .cote::after { content: ""; position: absolute; background: currentColor; }
+.cote--h { left: 0; right: 0; top: calc(100% + 14px); height: 16px; }
+.cote--h i { left: 0; right: 0; top: 7px; height: 1.5px; }
+.cote--h::before, .cote--h::after { top: 0; width: 1.5px; height: 16px; }
+.cote--h::before { left: 0; } .cote--h::after { right: 0; }
+.cote--v { top: 0; bottom: 0; left: calc(100% + 14px); width: 16px; }
+.cote--v i { top: 0; bottom: 0; left: 7px; width: 1.5px; }
+.cote--v::before, .cote--v::after { left: 0; height: 1.5px; width: 16px; }
+.cote--v::before { top: 0; } .cote--v::after { bottom: 0; }
+.cote-label { position: absolute; margin: 0; font-family: var(--police-titres); font-size: clamp(1.2rem, 1.6vw, 1.6rem); line-height: 1; color: var(--accent); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.cote-label--h { left: 50%; top: calc(100% + 18px); translate: -50% 0; padding: 0 10px; background: var(--fond); }
+.cote-label--v { left: calc(100% + 40px); top: 50%; translate: 0 -50%; }
+.grande-cartel { margin: 34px auto 0; }
+html:not(.js) .grande, html.secours .grande { height: auto; }
+html:not(.js) .grande-collant, html.secours .grande-collant { position: static; height: auto; }
+@media (max-width: 760px) {
+  .grande { height: auto; }
+  .grande-collant { position: static; height: auto; padding-block: 64px; }
+  .grande-cadre { width: calc(100% - 2 * var(--gouttiere) - 44px); margin-left: var(--gouttiere); }
+  .cote-label--v { left: calc(100% + 26px); writing-mode: vertical-rl; translate: 0 -50%; font-size: 1.1rem; }
+}
+@media (max-height: 500px) and (min-width: 761px) { .grande-tete { display: none; } .grande-cadre { width: min(70vw, calc((100svh - 120px) * 1.655)); } .grande-cartel { display: none; } }
 
 /* L'atelier sur l'accueil. */
 .atelier-bloc { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(32px, 6vw, 96px); align-items: center; padding-block: clamp(80px, 12vw, 160px); }
@@ -166,7 +185,7 @@ html:not(.js) .grande-media, html.secours .grande-media { aspect-ratio: 240 / 14
 .chezvous-prix { font-weight: 500; }
 .mur { width: 100%; }
 .mur-scene { position: relative; aspect-ratio: 16 / 9; container-type: inline-size; overflow: hidden; background: #EEE9DF; --mur-cm: 480; --u: calc(100cqw / var(--mur-cm)); --accroche-cm: 112; --centre: 50%; }
-.mur--photo .mur-scene { aspect-ratio: 5 / 4; --mur-cm: 338.4; --accroche-cm: 103; --centre: 50.9%; background: linear-gradient(180deg, var(--mur-haut) 0%, var(--mur-bas) 24%); --mur-haut: #E2DBCF; --mur-bas: #DAD2C5; }
+.mur--photo .mur-scene { aspect-ratio: 5 / 4; --mur-cm: 338.4; --accroche-cm: 112; --centre: 50.9%; background: linear-gradient(180deg, var(--mur-haut) 0%, var(--mur-bas) 24%); --mur-haut: #E2DBCF; --mur-bas: #DAD2C5; }
 .mur-photo { position: absolute; left: 0; right: 0; bottom: 0; aspect-ratio: 16 / 9; border-radius: 0; background: none; overflow: visible; }
 .mur-photo::before { content: ""; position: absolute; left: 0; right: 0; top: -1px; height: 14%; background: linear-gradient(180deg, var(--mur-bas), transparent); z-index: 1; pointer-events: none; }
 .mur-dessin { position: absolute; inset: 0; background: linear-gradient(180deg, #F1ECE3 0%, #E9E3D8 78%, #D9CCB8 78%, #CDBDA6 100%); }
@@ -192,8 +211,11 @@ html:not(.js) .grande-media, html.secours .grande-media { aspect-ratio: 240 / 14
 @media (max-width: 520px) { .reconnaissance-cartes { grid-template-columns: minmax(0, 1fr); } }
 
 /* Acquérir. */
-.acquerir { padding-block: clamp(32px, 6vw, 80px) clamp(80px, 12vw, 160px); }
+.acquerir { padding-block: clamp(32px, 6vw, 80px) clamp(80px, 12vw, 160px); display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 16px clamp(28px, 5vw, 72px); align-items: start; }
 .acquerir-tete { max-width: 46em; }
+.acquerir-photo { margin-top: 24px; aspect-ratio: 4 / 3; }
+.acquerir .acquerir-cartes { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 0; }
+@media (max-width: 900px) { .acquerir { grid-template-columns: minmax(0, 1fr); } }
 .acquerir-cartes { list-style: none; padding: 0; margin: 32px 0 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .acquerir-carte { background: var(--pierre); padding: 26px 24px 22px; display: flex; flex-direction: column; align-items: flex-start; gap: 8px; border-radius: var(--rayon); }
 .acquerir-carte h3 { margin: 0; }
@@ -274,11 +296,7 @@ html:not(.js) .grande-media, html.secours .grande-media { aspect-ratio: 240 / 14
 .catalogue-vide { padding: 40px 0; }
 @media (max-width: 760px) { .filtres { position: static; gap: 10px; } .filtre { flex-wrap: nowrap; overflow-x: auto; width: 100%; padding-bottom: 4px; } .catalogue-compte { margin: 0; } .cat-item { flex-basis: calc(var(--r) * 120px); max-width: none; } }
 
-.en-ligne { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px 48px; align-items: center; padding-block: clamp(48px, 7vw, 96px); border-top: 1px solid var(--ligne); }
-.en-ligne h2 { font-size: clamp(2rem, 3.6vw, 3.2rem); }
-.en-ligne p { max-width: 36em; }
 .en-ligne-liens { display: flex; flex-wrap: wrap; gap: 10px; }
-@media (max-width: 760px) { .en-ligne { grid-template-columns: minmax(0, 1fr); } }
 
 /* Visionneuse. */
 .visionneuse { position: fixed; inset: 0; z-index: 800; background: #ECE6DB; color: var(--encre); display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr) auto auto; padding: 12px var(--gouttiere) 14px; }
@@ -454,3 +472,53 @@ html:not(.js) .atelier-tete-texte, html:not(.js) .parcours-tete-texte { padding-
 .vautrin-toile .cartel { color: #CFC8BB; }
 /* Sans JavaScript, l'en-tête dans le flux pousse le premier écran : il garde sa hauteur sous l'en-tête. */
 html:not(.js) .hero { min-height: calc(100svh - 72px); }
+
+/* Le cartel de musée posé à côté de la toile accrochée. */
+.mur-cartel { position: absolute; z-index: 3; margin: 0; display: flex; flex-direction: column; gap: 1px; padding: 6px 9px; background: #FBF9F4; color: var(--encre); font-size: .8125rem; line-height: 1.3; box-shadow: 0 2px 6px rgba(27, 26, 23, .12); visibility: hidden; }
+.mur-cartel strong { font-weight: 600; }
+.mur-cartel.place { visibility: visible; }
+
+/* Appel final de l'accueil : un mur d'accrochage en salon, toiles qui arrivent une à une. */
+.mur-final { background: var(--pierre); padding-block: clamp(72px, 10vw, 140px); overflow: hidden; }
+.mur-final-grille { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+.mur-final-texte p:not(.surtitre):not(.fin-actions) { max-width: 30em; color: var(--texte-doux); }
+.accrochage-salon { --base: min(9.5vw, 16svh, 150px); display: flex; flex-direction: column; align-items: center; gap: clamp(12px, 1.6vw, 22px); }
+.salon-rangee { display: flex; align-items: center; justify-content: center; gap: clamp(12px, 1.6vw, 22px); }
+.salon-toile { display: block; height: calc(var(--base) * var(--hh)); aspect-ratio: var(--r); min-width: 44px; min-height: 44px; transform-origin: 50% 0; box-shadow: 0 16px 30px -18px rgba(27, 26, 23, .6); background: var(--fond); }
+.salon-toile img { width: 100%; height: 100%; object-fit: contain; }
+.salon-toile:focus-visible { outline-offset: 6px; }
+@media (max-width: 900px) { .mur-final-grille { grid-template-columns: minmax(0, 1fr); } .accrochage-salon { --base: min(19vw, 120px); } }
+
+/* Catalogue : une œuvre au hasard ; fin de page claire. */
+.hasard { min-height: 44px; padding: 0 16px; font-size: .9rem; }
+.fin-oeuvre-photo { aspect-ratio: 4 / 3; }
+.fin-en-ligne { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--ligne); font-size: .95rem; color: var(--texte-doux); }
+.fin-en-ligne p { margin-bottom: .4em; }
+.en-ligne-liens { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 10px; }
+
+/* L'atelier : sur quoi il peint (barres qui se remplissent). */
+.supports { margin: 22px 0 18px; max-width: 30em; }
+.supports-titre { font-weight: 600; margin-bottom: 8px; }
+.supports ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.supports li { display: grid; grid-template-columns: 7.5em minmax(0, 1fr) 2.5em; align-items: center; gap: 12px; font-size: .92rem; }
+.supports-barre { height: 10px; background: var(--pierre); position: relative; overflow: hidden; }
+.supports-barre i { position: absolute; inset: 0 auto 0 0; width: calc(var(--part) * 100%); background: var(--accent); transform-origin: 0 50%; }
+.supports-n { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.supports-note { font-size: .8125rem; color: var(--texte-doux); margin-top: 8px; }
+
+/* Parcours : un point suit la frise, l'année en cours s'allume. */
+.frise-point { position: absolute; left: calc(clamp(84px, 11vw, 150px) - 5px); top: 0; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent) 22%, transparent); z-index: 2; }
+.frise-annee { transition: color .4s var(--courbe); }
+.frise-etape.actif .frise-annee { color: var(--accent); }
+html:not(.js) .frise-point { display: none; }
+@media (max-width: 760px) { .frise-point { display: none; } }
+.expo-groupe summary { list-style: none; cursor: pointer; min-height: 44px; display: flex; align-items: flex-end; }
+.expo-groupe summary h3 { flex: 1; }
+.expo-groupe summary::-webkit-details-marker { display: none; }
+.expo-groupe summary h3 { margin-bottom: 4px; }
+@media (max-width: 760px) { .expo-groupe summary h3::after { content: "+"; font-family: var(--police-texte); margin-left: auto; padding-left: 12px; } .expo-groupe[open] summary h3::after { content: "−"; } .expo-groupe summary { min-height: 44px; } }
+
+/* Curseur « Voir » au survol des toiles (souris seulement). */
+.curseur.curseur-voir { width: 74px; height: 74px; left: -37px; top: -37px; background: var(--accent); border-color: var(--accent); display: grid; place-items: center; }
+.curseur.curseur-voir::after { content: "Voir"; color: var(--fond); font-family: var(--police-texte); font-size: .8125rem; font-weight: 600; letter-spacing: .04em; }
+@media (max-width: 560px) { .acquerir .acquerir-cartes { grid-template-columns: minmax(0, 1fr); } }

@@ -25,7 +25,7 @@ export default (c) => {
   </div>
   <div class="hero-oeuvre">
     <div class="hero-cadre" data-iris-centre style="aspect-ratio:${hero.ratio}">
-      ${c.media({ nom: hero.image, alt: c.s('accueil.hero.alt'), priorite: true, classe: 'oeuvre-media hero-media', sizes: '(max-width: 760px) 86vw, 44vw' })}
+      <a class="hero-lien" href="${c.url('oeuvres', '', 'oeuvre=1368')}" data-libelle="${c.libelle('oeuvres')}" aria-label="${c.s('oeuvres.ouvrir', { titre: hero.titre + ', ' + hero.annee })}">${c.media({ nom: hero.image, alt: c.s('accueil.hero.alt'), priorite: true, classe: 'oeuvre-media hero-media', sizes: '(max-width: 760px) 86vw, 44vw' })}</a>
       <div class="toile-grille" aria-hidden="true" data-audit-ignorer>
         ${brut(Array.from({ length: 25 }, (_, i) => `<i style="--i:${i}"></i>`).join(''))}
         <svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="1" d="M20 0V100M40 0V100M60 0V100M80 0V100M0 20H100M0 40H100M0 60H100M0 80H100" fill="none" stroke="#8d8a84" stroke-width=".9" vector-effect="non-scaling-stroke"/></svg>
@@ -56,22 +56,26 @@ export default (c) => {
       <div><h3>${s.nom}</h3><p class="salle-texte">${s.texte}</p></div>
       ${c.lien('oeuvres', { params: `decennie=${s.decennie}`, ancre: 'catalogue', classe: 'lien-fleche', texte: c.t('accueil.decennies.voir', { n: parDecennie(s.decennie) }) })}
     </div>
-    <div class="salle-mur" tabindex="0" role="region" aria-label="${s.nom}" data-galerie data-anime="cascade">
-      ${s.oeuvres.map((id) => oeuvreFigure(c, O[id], { classe: 'salle-oeuvre', sizes: '(max-width: 760px) 70vw, 30vw', lien: true }))}
+    <div class="salle-mur" tabindex="0" role="region" aria-label="${s.nom}" data-galerie>
+      ${s.oeuvres.map((id) => oeuvreFigure(c, O[id], { classe: 'salle-oeuvre', sizes: '(max-width: 760px) 70vw, 30vw', lien: true, attrs: 'data-effet="balancement"' }))}
     </div>
   </article>`)}
 </section>
 
-<section class="grande" id="grande" data-fx="plein-ecran" data-fx-depart="inset(24% 31% 24% 31% round 2px)">
+<section class="grande" id="grande" data-scene>
   <div class="grande-collant" data-collant>
-    <p class="grande-mot grande-mot--g" data-fx-ecarte="g" aria-hidden="true" data-audit-ignorer>${c.t('accueil.grande.gauche')}</p>
-    ${c.media({ nom: grande.image, alt: c.s('accueil.grande.alt'), classe: 'grande-media', sizes: '100vw' })}
-    <p class="grande-mot grande-mot--d" data-fx-ecarte="d" aria-hidden="true" data-audit-ignorer>${c.t('accueil.grande.droite')}</p>
-    <div class="grande-texte" data-fx-apres>
+    <div class="grande-tete conteneur">
       <p class="surtitre">${c.t('accueil.grande.surtitre')}</p>
       <h2>${c.t('accueil.grande.titre')}</h2>
-      <p class="cartel">${c.t('accueil.grande.legende')}</p>
     </div>
+    <div class="grande-cadre" data-effet="cotes">
+      <div class="grande-toile">${c.media({ nom: grande.image, alt: c.s('accueil.grande.alt'), classe: 'grande-media oeuvre-media', sizes: '(max-width: 760px) 92vw, 80vw' })}</div>
+      <span class="cote cote--h" aria-hidden="true"><i></i></span>
+      <p class="cote-label cote-label--h" aria-hidden="true">${c.t('accueil.grande.gauche')}</p>
+      <span class="cote cote--v" aria-hidden="true"><i></i></span>
+      <p class="cote-label cote-label--v" aria-hidden="true">${c.t('accueil.grande.droite')}</p>
+    </div>
+    <p class="cartel grande-cartel conteneur"><span>${c.t('accueil.grande.legende')}</span><span>${c.t('accueil.grande.repere')}</span></p>
   </div>
 </section>
 
@@ -136,6 +140,7 @@ export default (c) => {
     <p class="surtitre" data-anime>${c.t('accueil.acquerir.surtitre')}</p>
     <h2 data-anime="lignes">${c.t('accueil.acquerir.titre')}</h2>
     <p data-anime>${c.t('accueil.acquerir.texte')}</p>
+    ${c.media({ nom: 'atelier-salle-1', alt: c.s('accueil.fin.alt'), classe: 'acquerir-photo', ratio: '4 / 3', sizes: '(max-width: 900px) 92vw, 40vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
   </div>
   <ul class="acquerir-cartes" data-anime="cascade">
     <li class="acquerir-carte acquerir-carte--atelier" data-survol="incline" data-survol-force="4">
@@ -156,15 +161,20 @@ export default (c) => {
   </ul>
 </section>
 
-<section class="fin fin--photo" id="fin">
-  ${c.media({ nom: 'atelier-salle-1', alt: c.s('accueil.fin.alt'), classe: 'fin-fond', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="12"' })}
-  <div class="fin-texte conteneur">
-    <h2 data-anime="lignes">${c.t('accueil.fin.titre')}</h2>
-    <p data-anime>${c.t('accueil.fin.texte')}</p>
-    <p class="fin-actions" data-anime>
-      ${c.lien('contact', { params: 'sujet=visite', ancre: 'formulaire', classe: 'bouton', texte: c.t('accueil.fin.action'), attrs: 'data-survol="magnetique"' })}
-      <a class="bouton bouton--clair" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')} ${c.site.contact.telephone}</a>
-    </p>
+<section class="mur-final" id="fin">
+  <div class="conteneur mur-final-grille">
+    <div class="mur-final-texte">
+      <p class="surtitre" data-anime>${c.t('accueil.fin.surtitre')}</p>
+      <h2 data-anime="lignes">${c.t('accueil.fin.titre')}</h2>
+      <p data-anime>${c.t('accueil.fin.texte')}</p>
+      <p class="fin-actions" data-anime>
+        ${c.lien('contact', { params: 'sujet=visite', ancre: 'formulaire', classe: 'bouton', texte: c.t('accueil.fin.action'), attrs: 'data-survol="magnetique"' })}
+        <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')} ${c.site.contact.telephone}</a>
+      </p>
+    </div>
+    <div class="accrochage-salon" data-effet="accrochage-salon">
+      ${A.salon.map((rangee, r) => html`<div class="salon-rangee" style="--hh:${[1, 1.25, 0.92][r]}">${rangee.map((id, i) => html`<a class="salon-toile" href="${c.url('oeuvres', '', `oeuvre=${id}`)}" data-libelle="${c.libelle('oeuvres')}" style="--r:${O[id].ratio};--i:${r * 4 + i}" aria-label="${c.s('oeuvres.ouvrir', { titre: O[id].titre + ', ' + (O[id].annee || O[id].periode) })}"><img src="/assets/images/${O[id].image}-480.webp" alt="${O[id].alt}" width="480" height="${Math.round(480 / O[id].ratio)}" loading="lazy" decoding="async"></a>`)}</div>`)}
+    </div>
   </div>
 </section>
 `;

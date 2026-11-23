@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4F1EA">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -123,7 +123,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <ul class="grands-chiffres" data-anime="cascade" data-visuel>
     <li><strong>1985</strong><span>l&#39;année où le peintre construit l&#39;atelier</span></li>
     <li><strong data-compteur="300">300</strong><span>m² sous la charpente des tanneries</span></li>
-    <li><strong>2</strong><span>espaces : l&#39;atelier et la salle d&#39;exposition</span></li>
+    <li><strong data-compteur="113">113</strong><span>œuvres au catalogue, de 1980 à 2024</span></li>
   </ul>
 </section>
 <section class="bloc-image conteneur" id="table">
@@ -135,6 +135,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div>
     <h2 data-anime="lignes">La table aux couleurs</h2>
     <p data-anime>C&#39;est ici que tout se prépare : pots d&#39;acrylique, pinceaux, papiers, toiles en attente. Depuis les années 1980, Baugier peint à l&#39;acrylique, sur toile, papier, bois ou carton.</p>
+    <div class="supports" data-effet="supports">
+      <p class="supports-titre">Sur quoi il peint</p>
+      <ul><li style="--part:1.000"><span class="supports-nom">Papier</span><span class="supports-barre"><i></i></span><span class="supports-n">34</span></li><li style="--part:0.971"><span class="supports-nom">Toile</span><span class="supports-barre"><i></i></span><span class="supports-n">33</span></li><li style="--part:0.382"><span class="supports-nom">Bois, panneau</span><span class="supports-barre"><i></i></span><span class="supports-n">13</span></li><li style="--part:0.029"><span class="supports-nom">Carton</span><span class="supports-barre"><i></i></span><span class="supports-n">1</span></li></ul>
+      <p class="supports-note">Parmi les œuvres du catalogue dont le support est connu (32 sans légende).</p>
+    </div>
     <p data-anime><a href="/oeuvres" class="lien-fleche" data-libelle="Œuvres">Voir les œuvres</a></p>
   </div>
 </section>

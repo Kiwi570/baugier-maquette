@@ -42,6 +42,7 @@ export default (c) => {
     ${filtre('support', [['toile', c.s('oeuvres.s-toile')], ['papier', c.s('oeuvres.s-papier')], ['bois', c.s('oeuvres.s-bois')], ['carton', c.s('oeuvres.s-carton')]])}
     ${filtre('format', [['petit', c.s('oeuvres.f-petit')], ['moyen', c.s('oeuvres.f-moyen')], ['grand', c.s('oeuvres.f-grand')]])}
     <p class="catalogue-compte" aria-live="polite" data-compte data-modele="${c.s('oeuvres.compte')}">${c.t('oeuvres.compte', { n: toutes.length })}</p>
+    <button type="button" class="bouton bouton--contour hasard" data-hasard>${c.t('oeuvres.hasard')}</button>
   </div>
   <ul class="cat-mur" data-anime="cascade">
     ${toutes.map((o) => carteCatalogue(c, o))}
@@ -50,24 +51,24 @@ export default (c) => {
   <div class="catalogue-vide" data-vide hidden><p>${c.t('oeuvres.aucune')}</p><button type="button" class="bouton bouton--contour" data-effacer>${c.t('oeuvres.effacer')}</button></div>
 </section>
 
-<section class="en-ligne conteneur" id="en-ligne">
-  <div>
-    <h2 data-anime="lignes">${c.t('oeuvres.ligneTitre')}</h2>
-    <p data-anime>${c.t('oeuvres.ligneTexte')}</p>
-  </div>
-  <p class="en-ligne-liens" data-anime="cascade">
-    <a class="bouton bouton--contour" href="https://www.riseart.com/fr#q=baugier" target="_blank" rel="noopener">Rise Art</a>
-    <a class="bouton bouton--contour" href="https://www.singulart.com/fr/search?q=baugier" target="_blank" rel="noopener">Singulart</a>
-    ${c.lien('contact', { params: 'sujet=serigraphie', ancre: 'formulaire', classe: 'bouton bouton--contour', texte: c.t('contact.sujetSerigraphie') })}
-  </p>
-</section>
 
-<section class="fin fin--photo" id="fin">
-  ${c.media({ nom: 'atelier-salle-3', alt: c.s('oeuvres.finAlt'), classe: 'fin-fond', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="10"' })}
-  <div class="fin-texte conteneur">
-    <h2 data-anime="lignes">${c.t('oeuvres.finTitre')}</h2>
-    <p data-anime>${c.t('oeuvres.finTexte')}</p>
-    <p class="fin-actions" data-anime>${c.lien('contact', { params: 'sujet=visite', ancre: 'formulaire', classe: 'bouton', texte: c.t('oeuvres.finAction') })}</p>
+
+<section class="fin-oeuvre fin-oeuvre--pierre" id="fin">
+  <div class="conteneur fin-oeuvre-grille">
+    <div>
+      <h2 data-anime="lignes">${c.t('oeuvres.finTitre')}</h2>
+      <p data-anime>${c.t('oeuvres.finTexte')}</p>
+      <p class="fin-actions" data-anime>${c.lien('contact', { params: 'sujet=visite', ancre: 'formulaire', classe: 'bouton', texte: c.t('oeuvres.finAction') })}</p>
+      <div class="fin-en-ligne" id="en-ligne" data-anime>
+        <p><strong>${c.t('oeuvres.ligneTitre')}.</strong> ${c.t('oeuvres.ligneTexte')}</p>
+        <p class="en-ligne-liens">
+          <a class="lien-fleche" href="https://www.riseart.com/fr#q=baugier" target="_blank" rel="noopener">Rise Art</a>
+          <a class="lien-fleche" href="https://www.singulart.com/fr/search?q=baugier" target="_blank" rel="noopener">Singulart</a>
+          ${c.lien('contact', { params: 'sujet=serigraphie', ancre: 'formulaire', classe: 'lien-fleche', texte: c.t('contact.sujetSerigraphie') })}
+        </p>
+      </div>
+    </div>
+    ${c.media({ nom: 'atelier-salle-3', alt: c.s('oeuvres.finAlt'), classe: 'fin-oeuvre-photo', ratio: '4 / 3', sizes: '(max-width: 760px) 92vw, 44vw', attrs: 'data-fx="parallaxe" data-fx-force="6"' })}
   </div>
 </section>
 
